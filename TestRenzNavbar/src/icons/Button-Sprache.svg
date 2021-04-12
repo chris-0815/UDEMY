@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>ic-button</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="RUZ-Website_Screnndesign_Home-v1_1440px" transform="translate(-1367.000000, -39.000000)" fill="#FFFFFF">
+            <g id="Header">
+                <g id="00_ic-button-desktop" transform="translate(1352.000000, 24.000000)">
+                    <g id="ic-button" fill="none">
+                        <g id="button-icons/icon-language" transform="translate(12.000000, 12.000000)" fill="#FFFFFF">
+                            <rect id="Rectangle" fill-rule="evenodd" x="3" y="11.25" width="18" height="1.5" rx="0.75"></rect>
+                            <path d="M3.75,11.25 L20.25,11.25 C20.6642136,11.25 21,11.5857864 21,12 C21,12.4142136 20.6642136,12.75 20.25,12.75 L3.75,12.75 C3.33578644,12.75 3,12.4142136 3,12 C3,11.5857864 3.33578644,11.25 3.75,11.25 Z" id="Rectangle" fill-rule="evenodd" transform="translate(12.000000, 12.000000) rotate(-90.000000) translate(-12.000000, -12.000000) "></path>
+                            <path d="M12,3 C16.9705627,3 21,7.02943725 21,12 C21,16.9705627 16.9705627,21 12,21 C7.02943725,21 3,16.9705627 3,12 C3,7.02943725 7.02943725,3 12,3 Z M12,4.5 C7.85786438,4.5 4.5,7.85786438 4.5,12 C4.5,16.1421356 7.85786438,19.5 12,19.5 C16.1421356,19.5 19.5,16.1421356 19.5,12 C19.5,7.85786438 16.1421356,4.5 12,4.5 Z" id="Rectangle" fill-rule="nonzero"></path>
+                            <path d="M12,3 C14.8994949,3 17.25,7.02943725 17.25,12 C17.25,16.9705627 14.8994949,21 12,21 C9.10050506,21 6.75,16.9705627 6.75,12 C6.75,7.02943725 9.10050506,3 12,3 Z M12,4.5 C10.1450791,4.5 8.25,7.74870696 8.25,12 C8.25,16.251293 10.1450791,19.5 12,19.5 C13.8549209,19.5 15.75,16.251293 15.75,12 C15.75,7.74870696 13.8549209,4.5 12,4.5 Z" id="Oval" fill-rule="nonzero"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

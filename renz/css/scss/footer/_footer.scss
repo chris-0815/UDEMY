@@ -1,0 +1,35 @@
+.footer {
+    background-color: $light-grey2;
+    padding: 2rem 3rem;
+    &__logo,
+    &__headline,
+    &__links,
+    &__icons {
+        display: flex;
+        flex-direction: row;
+    }
+    &__logo,
+    &__icons {
+        align-items: center;
+        h4 {
+            margin-left: 1rem;
+        }
+    }
+    .footer__icons img {
+        margin-left: 1rem;
+    }
+    &__headline {
+        justify-content: space-between;
+    }
+    &__links {
+        margin-top: 1rem;
+        justify-content: space-between;
+        li {
+            list-style: none;
+        }
+        a {
+            color: $blue;
+            text-decoration: none;
+        }
+    }
+}

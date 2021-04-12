@@ -1,0 +1,31 @@
+.stage {
+    max-width: 1440px;
+    margin: auto;
+    &__box {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        justify-content: space-between;
+    }
+    &__img {
+        max-width:100%;
+        display: block;
+        height: auto;    
+    }
+    &__content {
+        padding: 1px;
+    }
+    &__textbox {
+            position: relative;
+            left: 50%;
+            bottom: 45%;
+            transform: translate(-50%, -50%);
+            color: $white;
+            z-index: 1003;
+            font-size: 1.5rem;
+            display: inline-flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    }

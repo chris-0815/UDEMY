@@ -1,0 +1,29 @@
+@media (max-width: 1024px) {
+    .col-1 {
+      width: 33.333% !important;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .col-1 {
+      width: 50% !important;
+    }
+    .col-2 {
+      width: 100% !important;
+    }
+    .col-3 {
+      width: 100% !important;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .col-1 {
+      width: 100% !important;
+    }
+    .col-2 {
+      width: 100% !important;
+    }
+    .col-3 {
+      width: 100% !important;
+    }
+  }

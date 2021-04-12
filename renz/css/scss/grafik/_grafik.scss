@@ -1,0 +1,11 @@
+.grafik {
+    max-width: 1440px;
+            margin: auto;
+            position: relative;
+            top: -170px;
+    &__box {
+        &--img {
+            width: 100%;
+        }
+    }
+}

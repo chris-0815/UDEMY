@@ -1,0 +1,229 @@
+nav {
+  padding: 5px 20px;
+  height: 120px;
+  max-width: 1440px;
+  margin: auto;
+}
+
+nav .menu {
+  /* MOBILE STYLE */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .menu__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+nav .menu__logo span {
+  font-size: 1.5rem;
+}
+
+nav .menu__logo img {
+  width: 100px;
+  margin-right: 15px;
+}
+
+nav .menu__logo li {
+  list-style: none;
+}
+
+nav .menu__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+nav .menu__item {
+  width: 100%;
+  text-align: center;
+  -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+          order: 3;
+}
+
+nav .menu__item2 {
+  display: none;
+}
+
+nav .menu__item + .active, nav .menu__item2 + .active {
+  display: block;
+  z-index: 1;
+  background-color: #000 !important;
+}
+
+nav .menu__hamburger {
+  padding: 0;
+}
+
+nav .menu__hamburger--toggle {
+  cursor: pointer;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+nav .menu__hamburger--toggle .bars {
+  background: #999;
+  display: inline-block;
+  height: 2px;
+  position: relative;
+  width: 18px;
+}
+
+nav .menu__hamburger--toggle .bars::before,
+nav .menu__hamburger--toggle .bars::after {
+  content: "";
+  position: absolute;
+  background-color: #999;
+  height: 2px;
+  width: 18px;
+}
+
+nav .menu__hamburger--toggle .bars::before {
+  top: 5px;
+}
+
+nav .menu__hamburger--toggle .bars::after {
+  bottom: 5px;
+}
+
+nav .menu__btn {
+  border-top: 1px #444 solid;
+  border-bottom: 1px #444 solid;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+nav .menu__btn--lng {
+  padding: 0;
+}
+
+nav .menu__btn--srch {
+  padding: 0;
+}
+
+@media all and (min-width: 468px) {
+  nav .menu {
+    /* TABLET STYLE */
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  nav .menu__logo {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  nav .menu__logo img {
+    width: 70px;
+  }
+  nav .menu__item {
+    background-color: inherit;
+  }
+  nav .menu__btn {
+    border: 0;
+    width: auto;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    display: block;
+  }
+  nav .menu__btn a {
+    padding: 7px 15px;
+  }
+  nav .menu__btn a:hover {
+    -webkit-transition: all .25s;
+    transition: all .25s;
+    background-color: #006d6d;
+    border-radius: 50em;
+  }
+  nav .menu .toggle {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+}
+
+@media all and (min-width: 768px) {
+  nav .menu {
+    /* Desktop STYLE */
+  }
+  nav .menu__logo {
+    -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 0;
+            order: 0;
+  }
+  nav .menu__item {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    display: block;
+    width: auto;
+  }
+  nav .menu__hamburger--toggle {
+    display: none;
+  }
+  nav .menu li.menu__item {
+    padding: 15px 10px;
+  }
+  nav .menu li.menu__item + .menu__btn--srch {
+    padding-right: 0;
+  }
+  nav .menu li.menu__item > .menu2 {
+    top: 7rem;
+    position: absolute;
+    background-color: black;
+    left: 35%;
+  }
+}
+
+nav .menu ul.menu, nav .menu ul.menu2 {
+  list-style-type: none;
+}
+
+nav .menu ul.menu li, nav .menu ul.menu2 li {
+  font-size: 1rem;
+  padding: 15px 5px;
+}
+
+nav .menu ul.menu li a, nav .menu ul.menu2 li a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+}
+
+nav .menu ul.menu li :hover, nav .menu ul.menu2 li :hover {
+  text-decoration: underline;
+  -webkit-text-decoration-color: #fff;
+          text-decoration-color: #fff;
+  text-underline-offset: 45%;
+}
+/*# sourceMappingURL=style.css.map */

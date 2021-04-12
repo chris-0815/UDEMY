@@ -1,0 +1,110 @@
+@media only screen and (max-width: 1024px) {
+  .specialQueries {
+    background: red;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .specialQueries {
+    background: red;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .specialQueries {
+    background: red;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .specialQueries {
+    background: red;
+  }
+}
+
+.orshee > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.orshee > div h1 {
+  color: #02f202;
+  background-color: #a35050;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.orshee > div div h1 {
+  color: #333;
+  background-color: #4319a3;
+}
+
+img.heart {
+  background-color: black;
+  border: 2px solid black;
+}
+
+img.heart img {
+  background-color: black;
+}
+
+.heart > img {
+  border-radius: 50px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.orshee {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #333;
+  color: #00ffff !important;
+}
+
+.orshee__title {
+  color: red;
+}
+
+.orshee__border-black {
+  border: 3px solid black;
+}
+
+.orshee__border-black:hover {
+  background-color: #3a4915;
+}
+
+.orshee__border-white {
+  border: 2px solid #ffffff;
+}
+
+.orshee__border-white:hover {
+  background-color: #555555;
+}
+
+.orshee__border-green {
+  border: 2px solid #5eff00;
+}
+
+.orshee__border-green:hover {
+  background-color: #cfe49c;
+  color: black;
+}
+
+.orshee__border-red {
+  border: 2px solid #ff0000;
+}
+
+.orshee__border-red:hover {
+  background-color: #bd419e;
+}
+
+.orshee__text--bold {
+  font-weight: bold;
+}
+/*# sourceMappingURL=style.css.map */

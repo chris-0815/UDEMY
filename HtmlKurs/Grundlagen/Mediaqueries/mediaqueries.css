@@ -1,0 +1,29 @@
+.test {
+    width: 600px;
+    height: 600px;
+    background-color: grey;
+}
+
+@media (min-width: 800px) {
+    .test {
+        width:500px;
+        height: 500px;
+        background-color: red;
+    }
+}
+
+@media (width: 1000px) {
+    .test {
+        width:500px;
+        height: 500px;
+        background-color: black;
+    }
+}
+
+@media (max-width: 400px) {
+    .test {
+        width:350px;
+        height: 350px;
+        background-color: lightblue;
+    }
+}

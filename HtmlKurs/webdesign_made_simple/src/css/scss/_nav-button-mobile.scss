@@ -1,0 +1,15 @@
+.mobile-nav-button {
+    position: relative;
+    margin: .4rem;
+    color: #fff;
+    float: right;
+    font-size: 2rem;
+    border: 2px solid #fff;
+    width: 37px;
+    height: 37px;
+    > span {
+        position: absolute;
+        bottom: -2px;
+        left: 6.5px;
+    }
+}

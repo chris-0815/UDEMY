@@ -1,0 +1,53 @@
+.hardware-slider {
+    margin-top:10rem;
+    div &__container.slick-slide {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+    
+.hardware-prev,
+.hardware-next {
+    position: absolute;
+    z-index: 1;
+    background-color: transparent;
+    border: none;
+    bottom: -15%;
+}
+
+.hardware-prev {
+    right: 0%;
+}
+.hardware-next {
+    left: 0%;
+}
+.hardware-prev::before {
+    content: ""!important;
+    background: transparent url(../src/icons/Teaser-Stage-arrow-right.svg) no-repeat center!important;
+
+}
+.hardware-next::before {
+    content: ""!important;
+    background: transparent url(../src/icons/Teaser-Stage-arrow-left.svg) no-repeat center!important;
+}
+.hardware-prev,
+.hardware-next:focus {
+outline:1px $white  ;
+box-shadow: none!important;
+}
+.hardware-prev:hover,
+.hardware-next:hover {
+background-color: $light-grey2;
+}
+
+.hardware-next::before,
+.hardware-prev::before {
+    width: 48px!important;
+    height: 48px;
+    display: block;
+}
+}

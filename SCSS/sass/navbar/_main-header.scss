@@ -1,0 +1,31 @@
+$media-desktop: "only screen and (max-width : 1024px)";
+$media-tablet: "only screen and (max-width : 768px)";
+$media-mobile: "only screen and (max-width : 600px)";
+$media-mobile-sm: "only screen and (max-width : 480px)";
+.navbar {
+    color: white;
+    &__title {
+        color: $secondary-color;
+    }
+    &__text{
+        &--bold{
+            font-weight: bold;
+        }
+    }
+
+    @media #{$media-desktop} {
+    background: red;
+    }
+
+    @media #{$media-tablet} {
+    background: red;
+    }
+
+    @media #{$media-mobile} {
+    background: red;
+    }
+
+    @media #{$media-mobile-sm} {
+    background: red;
+    }
+}

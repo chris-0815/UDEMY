@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper{
+	width: 100%;
+	height: 100%
+}
+
+
+.navbar{
+	width: 100%;
+	height: 60px;
+	background: #9972bf;
+    > ul{
+	display: flex;
+	justify-content: center;	
+    }
+    ul li{
+        position: relative;
+    }
+    ul li a{
+        display: block;
+        color: #fff;
+        height: 60px;
+        width: 180px;
+        text-align: center;
+        padding: 20px 10px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        transition: all 0.2s ease;
+    }
+    ul > li a{
+        margin-right: 1px;
+    }
+    ul > li:last-child a{
+        margin-right: 0;
+    }
+    ul li a .icon {
+        width: 25px;
+        display: inline-block;
+    }
+    ul li a:hover,
+    ul li a.a_parent.active,
+    .dd_menu ul li a:hover,
+    .dd_menu ul li a.active{
+        background: #c279b7;
+    }
+    .dd_menu{
+        position: absolute;
+        top: 80px;
+        left: 0;
+        display: none;
+    }
+    .dd_menu ul li a{
+        width: 180px;
+        background: #9972bf;
+        text-align: left;	
+        padding: 20px;
+    }
+    .dd_menu:before {
+        content: "";
+        position: absolute;
+        top: -30px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1;
+        border: 15px solid;
+        border-color: transparent transparent #9972bf transparent;
+    }
+    ul li a.a_parent.active + .dd_menu{
+        display: block;
+    }
+}
+.dd_submenu {
+    position: absolute;
+    top: 0;
+    left: 115%;
+    width: 100%;
+    display: none;
+}
+
+.dd_submenu:before {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: -30px;
+    z-index: 1;
+    border: 15px solid;
+    border-color: transparent #9972bf transparent transparent;
+}
+
+.navbar ul li a.dd_menu_a.active + .dd_submenu{
+	display: block;
+}

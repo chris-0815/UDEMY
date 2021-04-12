@@ -1,0 +1,8 @@
+.mobile-nav-dropdown {
+    position: relative;
+    // display: inline-block; float hebt display auf
+    float: right;
+}
+    :hover > .mobile-nav-content {
+        display: block;
+}

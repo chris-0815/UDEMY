@@ -1,0 +1,16 @@
+.banner {
+    &__big {
+        background: url("../../src/img/hintergrund.jpg") no-repeat;
+        background-size: contain;
+        width: 100%;
+        height: 0;
+        padding-top: 20.83%;
+    }    
+    &__small {
+        background: url("../../src/img/hintergrund-klein.jpg") no-repeat;
+        background-size: contain;
+        width: 100%;
+        height: 0;
+        padding-top: 15.625%;
+    }
+}

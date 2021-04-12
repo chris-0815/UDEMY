@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Plus</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="RUZ-Website_Screnndesign_Home-v1_1440px" transform="translate(-315.000000, -806.000000)" fill="#FFFFFF">
+            <g id="Teaserblock" transform="translate(0.000000, 696.000000)">
+                <g id="Image-Text-Teaserbox" transform="translate(165.000000, 0.000000)">
+                    <g id="Group-3" transform="translate(150.000000, 110.000000)">
+                        <g id="Plus">
+                            <rect id="Divider" x="0" y="27.9452055" width="60" height="4.10958904"></rect>
+                            <polygon id="Divider" transform="translate(30.000000, 30.000000) rotate(90.000000) translate(-30.000000, -30.000000) " points="1.81364349e-14 27.9452055 60 27.9452055 60 32.0547945 1.81364349e-14 32.0547945"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

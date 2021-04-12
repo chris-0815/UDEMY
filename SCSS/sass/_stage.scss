@@ -1,0 +1,11 @@
+.stripe {
+    color: green;
+    &__title {
+        color: red;
+    }
+    &__text{
+        &--bold{
+            font-weight: bold;
+        }
+    }
+}

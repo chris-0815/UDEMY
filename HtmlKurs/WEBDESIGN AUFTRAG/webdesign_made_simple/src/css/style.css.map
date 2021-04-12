@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "AEAA,AAAA,aAAa,CAAC;EACV,gBAAgB,EAAE,KAAK;CAC1B;;ACFD,AAAA,IAAI,CAAC;EACD,KAAK,EAAE,GAAG;CACb",
+    "sources": [
+        "style.scss",
+        "scss/style.scss",
+        "scss/_navbar.scss",
+        "scss/_base-set.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}

@@ -1,0 +1,41 @@
+
+.card-carousel {
+    max-width: 1440px;
+    margin: auto;
+    position:relative;
+    bottom: -2rem;
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        gap: 15px;
+    }
+    &__box {
+        max-width: 16rem;
+        text-align: center;
+        background-color: $white;
+        padding: 1rem;
+        color: blue;
+        z-index: 1;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 
+0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        p {
+            color: $black;
+        }
+        i {
+            font-size: 3rem;
+        }
+    }
+    &__btn {
+        position: relative;
+        left: 96%;
+    }
+    
+    @media(max-width:1024px) {
+        &__btn {
+            position: relative;
+            left: 89%;
+            top: 3em;
+        }
+    }
+}

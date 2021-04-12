@@ -1,0 +1,75 @@
+$primary-color: #333;
+$secondary-color: #02f202;
+
+.orshee>div {
+    display: flex;
+                h1 {
+                    color:$secondary-color;
+                    background-color: #a35050;
+                    display: flex;
+                }
+        div {
+            h1 {
+                color: $primary-color;
+                background-color: #4319a3;
+            }
+        }
+    }
+
+
+img.heart {
+    background-color: black;
+    border:2px solid black;
+    img {
+        background-color: black;
+    }
+}    
+
+.heart>img {
+border-radius: 50px;
+margin-top: auto;
+margin-bottom: auto;
+}
+
+
+.orshee {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    display: flex;
+    background-color: #333;
+    color: #00ffff!important;
+    &__title {
+        color: red;
+    }
+    &__border-black {
+        border: 3px solid black;
+        &:hover {
+            background-color: #3a4915;
+        }
+    }
+    &__border-white {
+        border: 2px solid #ffffff;
+        &:hover {
+            background-color: #555555;
+        }
+    }
+    &__border-green {
+        border: 2px solid #5eff00;
+        &:hover {
+            background-color: #cfe49c;
+            color:black;
+        }
+    }
+    &__border-red {
+        border: 2px solid #ff0000;
+        &:hover {
+            background-color: #bd419e;
+        }
+    }
+    &__text{
+        &--bold{
+            font-weight: bold;
+        }
+    }
+}

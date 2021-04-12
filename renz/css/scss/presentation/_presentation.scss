@@ -1,0 +1,30 @@
+.presentation {
+    max-width: 1440px;
+    margin: auto;
+    &__box {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__element {
+        width: 45%;
+        height: auto;
+        &--box {
+            text-align: left;
+            h1 {
+            color: $blue;
+            }
+            p {
+                color: $black;
+            }
+        }
+        &--img {
+            max-width:66%;
+            display: block;
+            height: auto;    
+        }
+    }
+
+}

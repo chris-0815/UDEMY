@@ -1,0 +1,53 @@
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #333;
+}
+
+div a p {
+  color: #02f202;
+}
+
+div a b {
+  color: antiquewhite;
+}
+
+div p a {
+  color: #02f202;
+}
+
+.navbar {
+  color: white;
+}
+
+.navbar__title {
+  color: #02f202;
+}
+
+.navbar__text--bold {
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 1024px) {
+  .navbar {
+    background: red;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background: red;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    background: red;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .navbar {
+    background: red;
+  }
+}
+/*# sourceMappingURL=style.css.map */

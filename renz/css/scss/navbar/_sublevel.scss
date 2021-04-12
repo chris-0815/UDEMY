@@ -1,0 +1,15 @@
+.sublevel {
+    &__home,
+    &__services,
+    &__about {
+        li{
+            display: none;
+        }
+    }
+}
+.sublevel__home li, .sublevel__services li, .sublevel__about li {
+    display: block;
+    position: relative;
+    top: .3rem;
+    left: -2.5rem;
+}

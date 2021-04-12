@@ -1,0 +1,7 @@
+pear
+apple
+orange
+watermelon
+poegranate
+citron
+strawberry

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="16px" viewBox="0 0 48 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>button-icons/icon-arrow</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="RUZ-Website_Screnndesign_Home-v1_1440px" transform="translate(-1376.000000, -392.000000)" fill="#FFFFFF">
+            <g id="Stage" transform="translate(-1.000000, 0.000000)">
+                <g id="button-icons/icon-arrow-white" transform="translate(1361.000000, 368.000000)">
+                    <g id="Group" fill="none" transform="translate(40.000000, 32.000000) rotate(-90.000000) translate(-40.000000, -32.000000) translate(32.000000, 8.000000)">
+                        <rect id="Rectangle" fill="#FFFFFF" transform="translate(8.000000, 23.500000) rotate(-270.000000) translate(-8.000000, -23.500000) " x="-15" y="22.5" width="46" height="2" rx="1"></rect>
+                        <path d="M0.292893219,39.299792 C0.6628636,38.9211074 1.25060568,38.9011766 1.6434994,39.2399997 L1.70710678,39.299792 L8,45.7406141 L14.2928932,39.299792 C14.6628636,38.9211074 15.2506057,38.9011766 15.6434994,39.2399997 L15.7071068,39.299792 C16.0770772,39.6784766 16.0965493,40.2800623 15.7655232,40.6822102 L15.7071068,40.7473158 L9.06066017,47.550312 C8.49830519,48.1259126 7.60052373,48.1489367 7.01133463,47.6193841 L6.93933983,47.550312 L0.292893219,40.7473158 C-0.0976310729,40.3475931 -0.0976310729,39.6995146 0.292893219,39.299792 Z" id="Path-2" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

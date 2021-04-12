@@ -1,0 +1,49 @@
+
+#nb-werbetext {
+    color:white;
+    font-size: 1.2rem;
+}
+
+#nb-btn {
+    height: 35px;
+    float: right;
+    width: 30%;
+    padding: 0rem!important;
+}
+
+#nb-form {
+    margin-top: 1.3rem;
+    width: 100%;
+    float: right;
+    text-align: right;
+}
+
+.newsletter-bereich {
+    width: 100%;
+    background-color: $dark-grey;
+}
+
+.nb-email-input {
+    width: 70%;
+    height: 35px;
+    border: 2px solid white;
+    padding: .4rem .4rem;
+}
+    @media (max-width: 978px) {
+        .nb-email-input {
+            width: 100% !important;
+        }
+        #nb-btn {
+            width: 100% !important;
+            padding: .3rem;
+        }
+    }
+    @media (max-width: 854px) {
+        .nb-email-input {
+          width: 100% !important;
+        }
+        #nb-btn {
+            width: 100%;
+            padding: .5rem
+        }
+    }

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="65px" height="895px" viewBox="0 0 65 895" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Unternehmen" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="RUZ-Website_Screnndesign_Unternehmen_Firmenchronik_v1_1440px" transform="translate(-688.000000, -1615.000000)">
+            <g id="Histoire" transform="translate(0.000000, 1616.000000)">
+                <g id="Group-3" transform="translate(688.000000, 0.000000)">
+                    <g id="Group-6" transform="translate(0.000000, 92.000000)">
+                        <rect id="bg" fill="#1878DE" x="0" y="0" width="65" height="65" rx="32.5"></rect>
+                        <text id="2015" font-family="Raleway-Bold, Raleway" font-size="20" font-weight="bold" line-spacing="24" fill="#FFFFFF">
+                            <tspan x="10.24" y="37">2015</tspan>
+                        </text>
+                    </g>
+                    <g id="Group-6" transform="translate(0.000000, 412.000000)">
+                        <rect id="bg" fill="#1878DE" x="0" y="0" width="65" height="65" rx="32.5"></rect>
+                        <text id="2012" font-family="Raleway-Bold, Raleway" font-size="20" font-weight="bold" line-spacing="24" fill="#FFFFFF">
+                            <tspan x="10.14" y="37">2012</tspan>
+                        </text>
+                    </g>
+                    <g id="Group-6" transform="translate(0.000000, 732.000000)">
+                        <rect id="bg" fill="#1878DE" x="0" y="0" width="65" height="65" rx="32.5"></rect>
+                        <text id="2010" font-family="Raleway-Bold, Raleway" font-size="20" font-weight="bold" line-spacing="24" fill="#FFFFFF">
+                            <tspan x="9.64" y="37">2010</tspan>
+                        </text>
+                    </g>
+                    <g id="Group-6" transform="translate(0.000000, 572.000000)">
+                        <rect id="bg" fill="#1878DE" x="0" y="0" width="65" height="65" rx="32.5"></rect>
+                        <text id="2011" font-family="Raleway-Bold, Raleway" font-size="20" font-weight="bold" line-spacing="24" fill="#FFFFFF">
+                            <tspan x="10.84" y="37">2011</tspan>
+                        </text>
+                    </g>
+                    <g id="Group-6" transform="translate(0.000000, 252.000000)">
+                        <rect id="bg" fill="#1878DE" x="0" y="0" width="65" height="65" rx="32.5"></rect>
+                        <text id="2014" font-family="Raleway-Bold, Raleway" font-size="20" font-weight="bold" line-spacing="24" fill="#FFFFFF">
+                            <tspan x="10.07" y="37">2014</tspan>
+                        </text>
+                    </g>
+                    <line x1="32" y1="0" x2="32" y2="893" id="Line-2" stroke="#1878DE" stroke-width="2" stroke-linecap="square"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

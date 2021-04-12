@@ -1,0 +1,136 @@
+.navbar {
+
+    &__logo{
+        width: 200px!important;
+    }
+
+    &__nav {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        &--contact{
+            button {
+                background-color: #ae00ffbd;
+            }
+        }
+        &--language {            
+            button {
+                background-color: #ae00ffbd;
+            }
+        }
+        &--search {
+            button {
+                background-color: #ae00ffbd;
+            }
+        }
+        &--links{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            list-style: none;
+            ul {
+                li {
+                background-color: #ffffff;
+                }
+            }
+        }
+    }
+
+    @media(max-width:544px) {
+        &__logo, 
+        &__nav {
+            &--contact,
+            &--language,
+            &--search{
+                button {
+                    font-size: 1.8rem;
+                }
+            }
+        }
+        &__logo{
+            width: 9rem;
+        }
+        &__nav {
+            &--links{
+                display: none;
+            }
+        }
+    }
+
+    @media(max-width:600px) {
+        .navbar__logo, .navbar__nav {
+            width: 20%;
+        }
+        &__nav {
+            &--contact,
+            &--language,
+            &--search,
+            &--links {
+                display: none;
+                }
+            nav {
+            width: 20%;
+            }
+        }
+    }
+
+    @media(max-width:768px) {
+        &__logo, 
+        &__nav {
+            &--contact,
+            &--language,
+            &--search,
+            &--links {
+                button, 
+                ul, 
+                li, 
+                a  {
+                    font-size: 1.5rem;
+                }
+            }
+            width: 60%;
+        }
+        &__logo{
+            width: 5rem;
+        }
+        &__nav {
+            &--links{
+                display: none;
+            }
+        }
+    }
+    @media(max-width:870px) {
+        &__nav {
+            &--links{
+                display: none;
+            }
+        }
+    }
+    @media(min-width:1350px) {
+        &__logo, 
+        &__nav {
+            &--contact,
+            &--language,
+            &--search,
+            &--links {
+                button, 
+                ul, 
+                li, 
+                a  {
+                    font-size: 1.7rem;
+                }
+            }
+        }
+        &__logo{
+            width: 7rem;
+        }
+        &__nav {
+            &--links{
+                display: flex;
+            }
+        }
+    }
+}

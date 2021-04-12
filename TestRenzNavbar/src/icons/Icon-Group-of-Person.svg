@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="84px" height="62px" viewBox="0 0 84 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Group 17</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="21.6189 22.6229 29.6939 22.6229 29.6939 59.6637 21.6189 59.6637"></polygon>
+        <path d="M29.6939,22.6229 L23.6089,28.8509 C22.3329,30.1559 21.6189,31.9079 21.6189,33.7329 L21.6189,59.6639" id="path-3"></path>
+        <polygon id="path-5" points="49.6578 22.6229 57.7318 22.6229 57.7318 59.6637 49.6578 59.6637"></polygon>
+    </defs>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="RUZ-Website_Screnndesign_Home-v1_1440px" transform="translate(-674.000000, -730.000000)">
+            <g id="Teaserblock" transform="translate(0.000000, 696.000000)">
+                <g id="Image-Text-Teaserbox" transform="translate(540.000000, 0.000000)">
+                    <g id="Group-17" transform="translate(136.000000, 36.000000)">
+                        <path d="M52.4869,13.3392 C52.4869,20.7062 46.5139,26.6792 39.1469,26.6792 C31.7799,26.6792 25.8079,20.7062 25.8079,13.3392 C25.8079,5.9722 31.7799,0.0002 39.1469,0.0002 C46.5139,0.0002 52.4869,5.9722 52.4869,13.3392 Z" id="Stroke-1" stroke="#1878DE" stroke-width="4"></path>
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-4"></g>
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <use id="Stroke-3" stroke="#1878DE" stroke-width="4" xlink:href="#path-3"></use>
+                        <mask id="mask-6" fill="white">
+                            <use xlink:href="#path-5"></use>
+                        </mask>
+                        <g id="Clip-7"></g>
+                        <path d="M49.6578,22.6229 L55.7428,28.8509 C57.0178,30.1559 57.7318,31.9079 57.7318,33.7329 L57.7318,59.6639" id="Stroke-6" stroke="#1878DE" stroke-width="4"></path>
+                        <path d="M18.2862,17.5101 C18.2862,21.8741 14.7482,25.4121 10.3842,25.4121 C6.0192,25.4121 2.4812,21.8741 2.4812,17.5101 C2.4812,13.1461 6.0192,9.6081 10.3842,9.6081 C14.7482,9.6081 18.2862,13.1461 18.2862,17.5101 Z" id="Stroke-9" stroke="#1878DE" stroke-width="4"></path>
+                        <path d="M4.7838,23.0096 L1.1788,26.6986 C0.4228,27.4726 -0.0002,28.5106 -0.0002,29.5916 L-0.0002,44.9526" id="Stroke-11" stroke="#1878DE" stroke-width="4"></path>
+                        <path d="M75.9488,17.2982 C75.9488,21.6622 72.4108,25.2002 68.0458,25.2002 C63.6808,25.2002 60.1428,21.6622 60.1428,17.2982 C60.1428,12.9332 63.6808,9.3952 68.0458,9.3952 C72.4108,9.3952 75.9488,12.9332 75.9488,17.2982 Z" id="Stroke-13" stroke="#1878DE" stroke-width="4"></path>
+                        <path d="M74.273,22.7977 L77.877,26.4867 C78.633,27.2597 79.056,28.2977 79.056,29.3797 L79.056,44.7407" id="Stroke-15" stroke="#1878DE" stroke-width="4"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

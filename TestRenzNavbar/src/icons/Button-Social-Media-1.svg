@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>00_ic-button-Mobile</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="RUZ-Website_Screnndesign_Home-v1_1440px" transform="translate(-1173.000000, -4696.000000)" fill="#1878DE">
+            <g id="Footer" transform="translate(0.000000, 4636.000000)">
+                <g id="Social" transform="translate(1125.000000, 52.000000)">
+                    <g id="00_ic-button-Mobile" transform="translate(60.000000, 20.000000) rotate(-180.000000) translate(-60.000000, -20.000000) translate(40.000000, 0.000000)">
+                        <g id="ic-button" fill="none">
+                            <g id="button-icons/icon-social" transform="translate(4.000000, 4.000000)" fill="#1878DE">
+                                <g id="Group" transform="translate(16.000000, 16.000000) rotate(-90.000000) translate(-16.000000, -16.000000) translate(4.000000, 3.750000)">
+                                    <path d="M12,0.25 C18.627417,0.25 24,5.622583 24,12.25 C24,18.877417 18.627417,24.25 12,24.25 C5.372583,24.25 -1.42108547e-14,18.877417 -1.42108547e-14,12.25 C-1.42108547e-14,5.622583 5.372583,0.25 12,0.25 Z M12,2.25 C6.4771525,2.25 2,6.7271525 2,12.25 C2,17.7728475 6.4771525,22.25 12,22.25 C17.5228475,22.25 22,17.7728475 22,12.25 C22,6.7271525 17.5228475,2.25 12,2.25 Z" id="Rectangle" fill-rule="nonzero"></path>
+                                    <path d="M7,11.25 L17,11.25 C17.5522847,11.25 18,11.6977153 18,12.25 C18,12.8022847 17.5522847,13.25 17,13.25 L7,13.25 C6.44771525,13.25 6,12.8022847 6,12.25 C6,11.6977153 6.44771525,11.25 7,11.25 Z" id="Rectangle" transform="translate(12.000000, 12.250000) rotate(-270.000000) translate(-12.000000, -12.250000) "></path>
+                                    <path d="M14,11.25 L18,11.25 C18.5522847,11.25 19,11.6977153 19,12.25 C19,12.8022847 18.5522847,13.25 18,13.25 L14,13.25 C13.4477153,13.25 13,12.8022847 13,12.25 C13,11.6977153 13.4477153,11.25 14,11.25 Z" id="Rectangle" transform="translate(16.000000, 12.250000) rotate(-270.000000) translate(-16.000000, -12.250000) "></path>
+                                    <path d="M6,11.25 L10,11.25 C10.5522847,11.25 11,11.6977153 11,12.25 C11,12.8022847 10.5522847,13.25 10,13.25 L6,13.25 C5.44771525,13.25 5,12.8022847 5,12.25 C5,11.6977153 5.44771525,11.25 6,11.25 Z" id="Rectangle" transform="translate(8.000000, 12.250000) rotate(-270.000000) translate(-8.000000, -12.250000) "></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
