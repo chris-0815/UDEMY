@@ -21,6 +21,18 @@ const haushaltsbuch = {
     },
     
 
+    eintraege_sortieren() {
+        this.eintraege.sort(function(eintrag_a, eintrag_b) {
+            if (eintrag_a > eintrag_b) {
+                return -1;
+            } else if (eintrag_a < eintrag_b) {
+                return 1;
+            } else {
+                return 0;
+            }
+        });
+    },
+
     eintraege_ausgeben() {
         console.clear();
         this.eintraege.forEach(function(eintrag) {
