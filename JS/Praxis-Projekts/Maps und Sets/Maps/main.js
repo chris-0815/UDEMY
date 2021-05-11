@@ -31,7 +31,7 @@ console.log(meine_map);
 
 // meine_map.clear();
 
-meine_map.size();
+console.log(meine_map.size);
 console.log(meine_map);
 
 
