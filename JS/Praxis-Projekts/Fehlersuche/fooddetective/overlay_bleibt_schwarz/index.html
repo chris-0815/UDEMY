@@ -1,0 +1,981 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Hintergründe / Dr. Watson - der Food Detektiv</title>
+    <meta name="description"
+        content="Auf dem Weg zur artgerechten Ernährung. DR. WATSON zeigt, was gutes Essen vom schlechten unterscheiden und was gut für Unsere Kinder und vor allem für Unsere Tiere ist.">
+    <meta name="robots" content="index, follow">
+    <link rel="alternate" hreflang="de" href="http://food-detektiv.de/hintergruende/" />
+    <link rel="alternate" hreflang="fr" href="http://food-detektiv.de/fr/contexte/" />
+    <link rel="alternate" hreflang="cn" href="http://food-detektiv.de/cn/背景资料/" />
+    <link rel="canonical" href="http://food-detektiv.de/hintergruende/" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/resources/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/resources/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/resources/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/resources/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/resources/favicon/safari-pinned-tab.svg" color="#ff8800">
+    <meta name="msapplication-TileColor" content="#ff8800">
+    <meta name="theme-color" content="#ff8800">
+    <!--FAVICON-->
+    <title>Dr. Watson - der Food Detektiv</title>
+
+    <link rel="stylesheet" href="/resources/css/style.css?v=3" />
+
+    <script src="/resources/js/jquery-3.4.1.min.js"></script>
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+    <script src="/resources/js/slick.min.js"></script>
+
+    <script src="/resources/js/ScrollMagic.min.js"></script>
+    <script src="/resources/js/debug.addIndicators.min.js"></script>
+
+    <script src="/resources/js/animation.gsap.min.js"></script>
+    <script src="/resources/js/gsap.min.js"></script>
+
+    <script src="/resources/js/cookie.js"></script>
+    <!--<script src="/resources/js/smooth-scroll.js"></script>-->
+    <script src="/resources/js/searchandnavbar.js"></script>
+    <script src="/resources/js/mobile-firstnavi.js"></script>
+    <script src="/resources/js/script.js"></script>
+
+
+    <script src="/resources/js/cycle2.js"></script>
+
+    <script src="/resources/js/customSelect.js"></script>
+    <script src="/resources/js/customSelect-big.js"></script>
+    <script src="/resources/js/formValidation.js"></script>
+    <!-- <head> -->
+</head>
+
+<body>
+
+
+    <!--HEADER-->
+    <header class="main-header">
+        <div class="main-header__container">
+
+            <a class="main-header__logo main-header__logo--phone">
+                <img src="/resources/media/icons/Logo.svg" alt="">
+            </a>
+
+            <a class="main-header__logo main-header__logo--desktop" href="/">
+                <img src="/resources/media/icons/logo_watson_selbst_farbig_komplett.svg" alt="">
+            </a>
+
+            <!-- Start NAVI-->
+            <nav class="main-navigation">
+                <ul class="main-navigation__container">
+                    <li class="main-navigation__nav-point main-navigation__nav-point--level-1">
+                        <a href="/" class="  main-navigation__nav-link main-navigation__nav-link--level-1">
+                            <img class="main-navigation__home-icon"
+                                src="/resources/media/icons/food-detektive_icons_home.svg" alt="home">
+                            <p class="main-navigation__home-label">Home</p>
+                            <img class="main-navigation__nav-link-icon" src="/resources/media/icons/angle.svg" alt="">
+                        </a>
+                    </li>
+                    <li
+                        class="main-navigation__nav-point main-navigation__nav-point--level-1 main-navigation__nav-point--has-subnavi">
+
+
+                        <a href="/ueber-dr-watson/"
+                            class="main-navigation__nav-link main-navigation__nav-link--level-1
+                                                          main-navigation__nav-link--has-subnavi                             ">
+                            Über DR. WATSON <img class="main-navigation__nav-link-icon"
+                                src="/resources/media/icons/angle.svg" alt="">
+                        </a>
+                        <div class="main-navigation__subnavi">
+                            <!-- Bei dem ersten Item wird der Artikelname durch 'Übersicht' ersetzt. Wird über $first_item gesteuert -->
+                            <img src="/media/fooddetektiv_navi-adobestock_248355977.jpg" alt=""
+                                class="main-navigation__subnavi-image">
+                            <ul class="main-navigation__subnavi-container">
+                                <h3 class="main-navigation__subnavi-title">Über DR. WATSON</h3>
+                                <li class="main-navigation__nav-point main-navigation__nav-point--level-2">
+                                    <a class="main-navigation__nav-link main-navigation__nav-link--level-2 "
+                                        href="/ueber-dr-watson/">
+                                        <span>Übersicht</span>
+                                        <img class="main-navigation__nav-link-icon"
+                                            src="/resources/media/icons/angle.svg" alt="">
+                                    </a>
+                                </li>
+                                <li class="main-navigation__nav-point main-navigation__nav-point--level-2">
+                                    <a class="main-navigation__nav-link main-navigation__nav-link--level-2 "
+                                        href="/ueber-dr-watson/ein-neuer-blick-auf-die-ernaehrung/">
+                                        <span>Ein neuer Blick auf die Ernährung</span>
+                                        <img class="main-navigation__nav-link-icon"
+                                            src="/resources/media/icons/angle.svg" alt="">
+                                    </a>
+                                </li>
+                                <li class="main-navigation__nav-point main-navigation__nav-point--level-2">
+                                    <a class="main-navigation__nav-link main-navigation__nav-link--level-2 "
+                                        href="/ueber-dr-watson/so-arbeitet-dr-watson/">
+                                        <span>So arbeitet DR. WATSON</span>
+                                        <img class="main-navigation__nav-link-icon"
+                                            src="/resources/media/icons/angle.svg" alt="">
+                                    </a>
+                                </li>
+                                <li class="main-navigation__nav-point main-navigation__nav-point--level-2">
+                                    <a class="main-navigation__nav-link main-navigation__nav-link--level-2 "
+                                        href="/ueber-dr-watson/dr-watson-prinzipien/">
+                                        <span>DR. WATSON Prinzipien</span>
+                                        <img class="main-navigation__nav-link-icon"
+                                            src="/resources/media/icons/angle.svg" alt="">
+                                    </a>
+                                </li>
+                                <li class="main-navigation__nav-point main-navigation__nav-point--level-2">
+                                    <a class="main-navigation__nav-link main-navigation__nav-link--level-2 "
+                                        href="/ueber-dr-watson/aufklaerung-und-unterstuetzung/">
+                                        <span>Aufklärung und Unterstützung</span>
+                                        <img class="main-navigation__nav-link-icon"
+                                            src="/resources/media/icons/angle.svg" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li
+                        class="main-navigation__nav-point main-navigation__nav-point--level-1 main-navigation__nav-point--has-subnavi">
+
+
+                        <a href="/wissen/"
+                            class="main-navigation__nav-link main-navigation__nav-link--level-1
+                                                          main-navigation__nav-link--has-subnavi                             ">
+                            Wissen <img class="main-navigation__nav-link-icon" src="/resources/media/icons/angle.svg"
+                                alt="">
+                        </a>
+                        <div class="main-navigation__subnavi">
+                            <!-- Bei dem ersten Item wird der Artikelname durch 'Übersicht' ersetzt. Wird über $first_item gesteuert -->
+                            <img src="/media/fooddetektiv_navi-adobestock_243257406.jpg" alt=""
+                                class="main-navigation__subnavi-image">
+                            <ul class="main-navigation__subnavi-container">
+                                <h3 class="main-navigation__subnavi-title">Wissen</h3>
+                                <li class="main-navigation__nav-point main-navigation__nav-point--level-2">
+                                    <a class="main-navigation__nav-link main-navigation__nav-link--level-2 "
+                                        href="/wissen/">
+                                        <span>Übersicht</span>
+                                        <img class="main-navigation__nav-link-icon"
+                                            src="/resources/media/icons/angle.svg" alt="">
+                                    </a>
+                                </li>
+                                <li class="main-navigation__nav-point main-navigation__nav-point--level-2">
+                                    <a class="main-navigation__nav-link main-navigation__nav-link--level-2 "
+                                        href="/wissen/zusatzstoffe-datenbank/">
+                                        <span>Zusatzstoffe Datenbank</span>
+                                        <img class="main-navigation__nav-link-icon"
+                                            src="/resources/media/icons/angle.svg" alt="">
+                                    </a>
+                                </li>
+                                <li class="main-navigation__nav-point main-navigation__nav-point--level-2">
+                                    <a class="main-navigation__nav-link main-navigation__nav-link--level-2 "
+                                        href="/wissen/lexikon/">
+                                        <span>Lexikon</span>
+                                        <img class="main-navigation__nav-link-icon"
+                                            src="/resources/media/icons/angle.svg" alt="">
+                                    </a>
+                                </li>
+                                <li class="main-navigation__nav-point main-navigation__nav-point--level-2">
+                                    <a class="main-navigation__nav-link main-navigation__nav-link--level-2 "
+                                        href="/wissen/buecher/">
+                                        <span>Bücher</span>
+                                        <img class="main-navigation__nav-link-icon"
+                                            src="/resources/media/icons/angle.svg" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="main-navigation__nav-point main-navigation__nav-point--level-1 ">
+
+
+                        <a href="/hintergruende/"
+                            class="main-navigation__nav-link main-navigation__nav-link--level-1
+                                                                                       main-navigation__nav-link--current">
+                            Hintergründe <img class="main-navigation__nav-link-icon"
+                                src="/resources/media/icons/angle.svg" alt="">
+                        </a>
+                    </li>
+                    <li
+                        class="main-navigation__nav-point main-navigation__nav-point--level-1 main-navigation__nav-point--has-subnavi">
+
+
+                        <a href="/aktuelles/"
+                            class="main-navigation__nav-link main-navigation__nav-link--level-1
+                                                          main-navigation__nav-link--has-subnavi                             ">
+                            Aktuelles <img class="main-navigation__nav-link-icon" src="/resources/media/icons/angle.svg"
+                                alt="">
+                        </a>
+                        <div class="main-navigation__subnavi">
+                            <!-- Bei dem ersten Item wird der Artikelname durch 'Übersicht' ersetzt. Wird über $first_item gesteuert -->
+                            <img src="/media/fooddetektiv_aktuelles_uebersicht_navigation-ff11jx.jpg" alt=""
+                                class="main-navigation__subnavi-image">
+                            <ul class="main-navigation__subnavi-container">
+                                <h3 class="main-navigation__subnavi-title">Aktuelles</h3>
+                                <li class="main-navigation__nav-point main-navigation__nav-point--level-2">
+                                    <a class="main-navigation__nav-link main-navigation__nav-link--level-2 "
+                                        href="/aktuelles/">
+                                        <span>Übersicht</span>
+                                        <img class="main-navigation__nav-link-icon"
+                                            src="/resources/media/icons/angle.svg" alt="">
+                                    </a>
+                                </li>
+                                <li class="main-navigation__nav-point main-navigation__nav-point--level-2">
+                                    <a class="main-navigation__nav-link main-navigation__nav-link--level-2 "
+                                        href="/aktuelles/news/">
+                                        <span>News</span>
+                                        <img class="main-navigation__nav-link-icon"
+                                            src="/resources/media/icons/angle.svg" alt="">
+                                    </a>
+                                </li>
+                                <li class="main-navigation__nav-point main-navigation__nav-point--level-2">
+                                    <a class="main-navigation__nav-link main-navigation__nav-link--level-2 "
+                                        href="/aktuelles/veranstaltungen/">
+                                        <span>Veranstaltungen</span>
+                                        <img class="main-navigation__nav-link-icon"
+                                            src="/resources/media/icons/angle.svg" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="main-navigation__nav-point main-navigation__nav-point--level-1 ">
+
+
+                        <a href="/unterstuetzen/" class="main-navigation__nav-link main-navigation__nav-link--level-1
+                                                                                       ">
+                            Unterstützen <img class="main-navigation__nav-link-icon"
+                                src="/resources/media/icons/angle.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="main-navigation__nav-point main-navigation__nav-point--level-1 ">
+
+
+                        <a href="/kontakt/" class="main-navigation__nav-link main-navigation__nav-link--level-1
+                                                                                       ">
+                            Kontakt <img class="main-navigation__nav-link-icon" src="/resources/media/icons/angle.svg"
+                                alt="">
+                        </a>
+                    </li>
+                    <button class="main-header__language-button">
+                        <img src="/resources/media/icons/button-language.svg" alt="">
+                    </button>
+                    <style>
+                        .main-header__search-button::after {
+                            content: "Suche" !important;
+                        }
+                    </style>
+                    <button class="main-header__search-button">
+                        <img src="/resources/media/icons/icon-search.svg" alt="">
+                    </button>
+                </ul>
+            </nav>
+            <!-- Ende NAVI-->
+
+
+
+
+            <button class="main-header__hamburger hamburger hamburger--slider" type="button">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                </span>
+            </button>
+
+        </div>
+
+        <!-- Start Language Bar-->
+        <div class="language-bar">
+            <div class="language-bar__inner-container content-width">
+                <button type="button" class="language-bar__close"></button>
+                <div class="language-bar__link-container">
+                    <a href="/hintergruende/" class="language-bar__link">DE</a>
+                    <a href="/fr/contexte/" class="language-bar__link">FR</a>
+                    <a href="/cn/背景资料/" class="language-bar__link">CN</a>
+                    <!-- <a href="/en/hintergruende/" class="language-bar__link">EN</a> -->
+                </div>
+            </div>
+        </div>
+        <!-- Ende Language Bar-->
+
+        <form class="searchbar " action="/suchergebnis/" method="get">
+            <input type="hidden" name="clang" value="1">
+            <div class="searchbar__inner-container content-width">
+                <button type="button" class="searchbar__close"></button>
+
+                <input type="text" class="searchbar__input" placeholder="Suchbegriff eingeben"
+                    onblur="this.placeholder = 'Suchbegriff eingeben'" name="search">
+
+                <button class="searchbar__submit" type="submit"></button>
+
+            </div>
+        </form>
+    </header>
+    <!--OVERLAY-->
+    <div class="main-navigation-overlay"></div>
+    <!--HEADER END -->
+    <!-- navi -->
+    <div class="container">
+        <!--STAGE-SMALL-->
+        <div class="sliderstage__overlay">
+            <section class="slider sliderstage--large">
+                <!-- STAGE-ITEM -->
+                <div class="sliderstage-item" style="
+            background-image: url(/media/fooddetektiv_hintergruende_stage.jpg);
+          ">
+                    <div class="sliderstage-item__content">
+                        <h1 class="sliderstage-item__heading ">
+                            Hintergründe
+                        </h1>
+                    </div>
+                </div>
+                <!-- STAGE-ITEM END -->
+            </section>
+            <p class="stage__arrow-right sliderstage__controls sliderstage__controls--right"></p>
+            <p class="stage__arrow-left sliderstage__controls sliderstage__controls--left"></p>
+        </div>
+
+        <!--STAGE-SMALL END-->
+        <!--TEXT + HEADLINE-->
+
+        <section class="textblock maxwidth--copy small-space-top">
+
+            <h2 class="centered ">Auf dem Weg zur artgerechten Ernährung</h2>
+
+            <div class="formattedtext">
+                <p><a href="https://food-detektiv.de/lexikon/?lex_search=Kalorien">Kalorienz&auml;hlen</a> war gestern.
+                    Heute geht es um die kulinarische Kultur, um <a
+                        href="https://food-detektiv.de/lexikon/?lex_st=0&amp;lex_search=Geschmack#ergebnis">Geschmack</a>
+                    und <a href="https://food-detektiv.de/lexikon/?lex_search=Gourmet-Di&auml;t">Genuss</a>, die <a
+                        href="https://food-detektiv.de/lexikon/?lex_search=Artgerechte%20Ern&auml;hrung">artgerechte
+                        Ern&auml;hrung</a>, auch f&uuml;r die Kinder, die k&uuml;nftigen Generationen, nat&uuml;rlich
+                    auch f&uuml;r die Tiere, die Umwelt, den ganzen Planeten. Und um das herrschende industrielle
+                    Ern&auml;hrungssystem, dessen sch&auml;dlicher und ungesunder Charakter immer deutlicher wird. Wie
+                    unterscheiden wir gutes Essen vom schlechten? Was ist gut f&uuml;r unsere Kinder? Und, was viele am
+                    meisten interessiert: Was ist das Beste f&uuml;r unsere Tiere?</p>
+            </div>
+
+
+        </section>
+        <!--TEXT + HEADLINE END-->
+        <!--TWOTEASERS-->
+        <h1 class="default-space-top centered"></h1>
+        <section class="twoteasers maxwidth--x-large small-space-top">
+
+            <!--TEASER-ITEM-->
+            <div class="twoteasers__item">
+                <div class="twoteasers__item__image" style="
+              background-image: url('/media/fooddetektiv_teaser-adobestock-130387649-preview.jpeg');
+            "></div>
+                <h2 class="twoteasers__item__title">Gutes Essen, schlechtes Essen</h2>
+                <p class="twoteasers__item__text">
+                    Was ist artgerecht für uns, und was nicht? Das zeigt schon ein einfacher Selbstversuch. </p>
+                <a href="#gutesessen" class="button button--primary twoteasers__item__button" target="_self">Mehr
+                    erfahren</a>
+
+
+            </div>
+            <!--TEASER-ITEM END-->
+            <!--TEASER-ITEM-->
+            <div class="twoteasers__item">
+                <div class="twoteasers__item__image" style="
+              background-image: url('/media/fooddetektiv_hintergruende_teaser_2.jpg');
+            "></div>
+                <h2 class="twoteasers__item__title">Generation Fast Food</h2>
+                <p class="twoteasers__item__text">
+                    Der neue Blick auf die Ernährung: Nirgendwo sonst ist er so wichtig wie bei den Kindern. </p>
+                <a href="#kinder" class="button button--primary twoteasers__item__button" target="_self">Mehr
+                    erfahren</a>
+
+
+            </div>
+            <!--TEASER-ITEM END-->
+        </section>
+        <!--TWOTEASERS END-->
+        <!--TWOTEASERS-->
+        <h1 class="default-space-top centered"></h1>
+        <section class="twoteasers maxwidth--x-large small-space-top">
+
+            <!--TEASER-ITEM-->
+            <div class="twoteasers__item">
+                <div class="twoteasers__item__image" style="
+              background-image: url('/media/fooddetektiv_hintergruende_teaser_3.jpg');
+            "></div>
+                <h2 class="twoteasers__item__title">Mensch und Tier </h2>
+                <p class="twoteasers__item__text">
+                    Es ist ein Skandal, der viele empört: Was wir unseren Tieren zum Fressen vorsetzen. </p>
+                <a href="#tiere" class="button button--primary twoteasers__item__button" target="_self">Mehr
+                    erfahren</a>
+
+
+            </div>
+            <!--TEASER-ITEM END-->
+            <!--TEASER-ITEM-->
+            <div class="twoteasers__item">
+                <div class="twoteasers__item__image" style="
+              background-image: url('/media/fooddetektiv_hintergruende_teaser_4_2.jpg');
+            "></div>
+                <h2 class="twoteasers__item__title">Über Zusatzstoffe</h2>
+                <p class="twoteasers__item__text">
+                    Was sie bedeuten. Wie sie wirken.
+                    </br>Und: Sind sie eigentlich ungesund? </p>
+                <a href="#zusatzstoffe" class="button button--primary twoteasers__item__button" target="_self">Mehr
+                    erfahren</a>
+
+
+            </div>
+            <!--TEASER-ITEM END-->
+        </section>
+        <!--TWOTEASERS END-->
+        <!--TEXT + HEADLINE-->
+
+        <a id="gutesessen" class="anchor"></a>
+        <section class="textblock maxwidth--copy ">
+
+            <h2 class="centered drwatson-icon-top">Gutes Essen, schlechtes Essen</h2>
+
+            <div class="formattedtext">
+                <h4 style="text-align: center;">Der Krieg ums Essen &ndash; und wir sind mittendrin</h4>
+                <p>Es gibt einen ganz einfachen Selbstversuch, der den Unterschied zeigt: Man denke an ein knuspriges
+                    H&auml;hnchen, ein duftendes Risotto mit Steinpilzen, einen warmen Apfelstrudel mit Vanillesauce
+                    &ndash; oder an <a href="/zusatzstoffe/?enummer=Natriumbenzoat">Natriumbenzoat (E211)</a>, <a
+                        href="/zusatzstoffe/?enummer=Natrium-Carboxymethyl-Cellulose">Natrium-Carboxymethyl-Cellulose
+                        (E466)</a>, <a href="/zusatzstoffe/?enummer=Calciumorthophosphat">Calciumorthophosphat
+                        (E341)</a>. Mal l&auml;uft einem das Wasser im Munde zusammen, und mal eher nicht. Das zeigt,
+                    dass der menschliche K&ouml;rper doch sehr unterschiedlich reagiert, je nachdem, mit welcher der
+                    beiden unterschiedlichen Sph&auml;ren der Ern&auml;hrung er konfrontiert wird. Es zeigt auch, dass
+                    der menschliche K&ouml;rper instinktiv differenziert zwischen diesen beiden Sph&auml;ren &ndash;
+                    weil er wei&szlig;, was gut f&uuml;r ihn ist, und was nicht. Bisher ging es bei der Beurteilung von
+                    Nahrung um die <a href="https://food-detektiv.de/lexikon/?lex_search=Kalorien">Kalorien</a>, also
+                    den Energiegehalt, um N&auml;hrstoffe wie Vitamine, Mineralstoffe, auch um Kontamination mit
+                    Schadstoffen, Viren, Bakterien, Giften, auch um Elemente wie <a
+                        href="https://food-detektiv.de/lexikon/?lex_st=0&amp;lex_search=Zucker#ergebnis">Zucker,</a> <a
+                        href="https://food-detektiv.de/lexikon/?lex_st=0&amp;lex_search=Salz#ergebnis">Salz</a>, <a
+                        href="https://food-detektiv.de/lexikon/?lex_st=0&amp;lex_search=Fett#ergebnis">Fett</a>.</p>
+            </div>
+
+
+        </section>
+        <!--TEXT + HEADLINE END-->
+        <!--TEXT-IMAGE-BLOCK-->
+        <div class="default-space-top ">
+            <section class="text-image-block  maxwidth--copy ">
+                <div class="text-image-block__imgcontainer">
+                    <img src="/media/fooddetektiv_hintergruende_essen-1.jpg" class="text-image-block__img" alt="">
+                </div>
+                <div class="text-image-block__textcontainer formattedtext">
+                    <p>Jetzt bahnt sich ein Paradigmenwechsel an, bei dem eher beurteilt wird, wo ein Lebensmittel
+                        steht, zwischen den beiden Polen: der <a
+                            href="https://food-detektiv.de/lexikon/?lex_st=0&amp;lex_search=Traditionelle+Ern&auml;hrung#ergebnis">traditionellen
+                            Welt</a>, in der es kleine Bauern gibt, G&auml;rtner, K&ouml;che, wo es um Dinge geht wie
+                        Karotten, Kartoffeln, Erbsen und Linsen, H&auml;hnchen, Eier, Erdbeeren, Ananas, Papaya. Und der
+                        <a
+                            href="https://food-detektiv.de/lexikon/?lex_search=Ultra-verarbeitete%20Nahrung">industriellen</a>,
+                        in der es den sogenannten Fruchtjoghurt gibt aus dem Plastikbecher, in der es Tiefk&uuml;hlpizza
+                        gibt und Corn Flakes aus dem Pappkarton, und Hamburger und Cola.&nbsp;</p>
+                    <p>Manche Forscher sprechen sogar schon von einem &bdquo;<a
+                            href="https://food-detektiv.de/lexikon/?lex_search=Monteiro,%20Carlos%20A.">Krieg</a>&ldquo;
+                        zwischen diesen beiden Ern&auml;hrungssystemen, bei dem es darum geht, wer auf diesem Planeten
+                        die Nahrungsversorgung dominiert: die kleinen Bauern, G&auml;rtner, K&ouml;che, die
+                        traditionelle haushaltsm&auml;&szlig;ige Zubereitung &ndash; oder die global operierenden
+                        Konzerne wie McDonald&rsquo;s, <a
+                            href="https://food-detektiv.de/lexikon/?lex_search=Nestl&eacute;">Nestl&eacute;</a>, Knorr,
+                        Coca-Cola, Red Bull.</p>
+                </div>
+            </section>
+        </div>
+        <!--TEXT-IMAGE-BLOCK END-->
+        <!--TEXT-IMAGE-BLOCK-->
+        <div class="default-space-top ">
+            <section class="text-image-block text-image-block--reversed maxwidth--copy ">
+                <div class="text-image-block__imgcontainer">
+                    <img src="/media/fooddetektiv_hintergruende_essen-2.jpg" class="text-image-block__img" alt="">
+                </div>
+                <div class="text-image-block__textcontainer formattedtext">
+                    <p>Ungl&uuml;cklicherweise hat sich die Politik sich eindeutig auf der Seite der Konzerne
+                        positioniert, gemeinsam mit den staatlich alimentierten <a
+                            href="https://food-detektiv.de/lexikon/?lex_search=Interessenkonflikte">Professoren</a> aus
+                        Hochschulen und Forschungseinrichtungen, besonders deutlich erkennbar in der Europ&auml;ischen
+                        Lebensmittelsicherheitsbeh&ouml;rde <a
+                            href="https://food-detektiv.de/lexikon/?lex_search=Europ&auml;ische%20Lebensmittelsicherheitsbeh&ouml;rde%20(Efsa)">Efsa</a>,
+                        aber auch der in der &Ouml;ffentlichkeit weithin unbekannten Weltregierung in Sachen Nahrung,
+                        dem <a href="https://food-detektiv.de/lexikon/?lex_search=Codex%20Alimentarius">Codex
+                            Alimentarius</a>, einer Einrichtung der Vereinten Nationen, in der die Konzerne ganz
+                        selbstverst&auml;ndlich mit am Tisch sitzen, wenn es um die weltweiten Gesetze und Vorschriften
+                        geht.</p>
+                    <p>Noch ist offen, wer den Sieg davontr&auml;gt im &bdquo;<a
+                            href="https://food-detektiv.de/lexikon/?lex_search=Monteiro,%20Carlos%20A.">Krieg ums
+                            Essen</a>&ldquo;. Zu beobachten sind immerhin gewisse Absetzbewegungen in der Wissenschaft.
+                        Professoren untersuchen detailliert die Gesundheitsfolgen von <a
+                            href="https://food-detektiv.de/lexikon/?lex_st=0&amp;lex_search=fastfood#ergebnis">Fastfood</a>,
+                        <a
+                            href="https://food-detektiv.de/lexikon/?lex_st=0&amp;lex_search=Softdrinks#ergebnis">Softdrinks</a>,
+                        der &bdquo;<a
+                            href="https://food-detektiv.de/lexikon/?lex_search=Ultra-verarbeitete%20Nahrung">ultra-verarbeiteten</a>&ldquo;
+                        Nahrung, und manche k&uuml;ndigen sogar schon den Konzernen die Gefolgschaft &ndash; mit dem
+                        Argument, sie wollten nicht auf der &bdquo;falschen Seite der Geschichte&ldquo; stehen.</p>
+                </div>
+            </section>
+        </div>
+        <!--TEXT-IMAGE-BLOCK END-->
+        <!--TEXT TWO COLUMNS-->
+        <div class="textblock--onecolumn formattedtext maxwidth--copy small-space-top">
+            <p>Denn die medizinische Forschung zeigt immer deutlicher die unterschiedlichen gesundheitlichen Folgen, und
+                auch, was gutes Essen ist: Die klassische <a
+                    href="https://food-detektiv.de/lexikon/?lex_search=Mediterrane%20Ern&auml;hrung">Mittelmeerk&uuml;che</a>
+                gilt Medizinern schon als &bdquo;Goldstandard&ldquo; gilt f&uuml;r eine gesundheitsf&ouml;rderliche
+                Ern&auml;hrung, wobei sich die Nachweise mehren, dass das auch f&uuml;r die chinesische K&uuml;che gilt,
+                die brasilianische, sogar die nordische, in den skandinavischen L&auml;ndern. Fazit der Forschung:
+                F&ouml;rderlich f&uuml;r ein langes, gl&uuml;ckliches und gesundes Leben ist die <a
+                    href="https://food-detektiv.de/lexikon/?lex_search=Traditionelle%20Ern&auml;hrung">Traditionelle
+                    Ern&auml;hrung</a>.</p>
+        </div>
+        <!--TEXT 2 COLUMNS END-->
+        <!--TEXT + HEADLINE-->
+
+        <section class="textblock maxwidth--copy ">
+
+
+
+            <a href="/wissen/details/food-war/" class="button button--primary small-space-top">Mehr erfahren</a>
+
+        </section>
+        <!--TEXT + HEADLINE END-->
+        <!--TEXT + HEADLINE-->
+
+        <a id="kinder" class="anchor"></a>
+        <section class="textblock maxwidth--copy ">
+
+            <h2 class="centered drwatson-icon-top">Generation Fast Food</h2>
+
+            <div class="formattedtext">
+                <h4 style="text-align: center;">Fr&uuml;he Programmierung: Wie die Ern&auml;hrung das Schicksal unserer
+                    Kinder pr&auml;gt</h4>
+                <p>Der neue Blick auf die Ern&auml;hrung: Nirgendwo sonst ist er so wichtig wie bei den Kindern. Was ist
+                    der Unterschied zwischen einem <a
+                        href="https://food-detektiv.de/lexikon/?lex_search=Babygl&auml;schen">Gl&auml;schenbrei</a> und
+                    einem selbstgemachten? Klingt wie eine Witzfrage, ist aber von fundamentaler Bedeutung f&uuml;r das
+                    Schicksal der Kleinen &ndash; und der zuk&uuml;nftigen Gesellschaft. Die Kinder von heute sind mit
+                    industrieller Nahrung konfrontiert wie noch keine Generation zuvor. Das hat weitreichende
+                    Auswirkungen, vor allem f&uuml;r ihr <a
+                        href="https://food-detektiv.de/lexikon/?lex_st=0&amp;lex_search=Gehirn#ergebnis">Gehirn</a>, die
+                    Intelligenz, die Gef&uuml;hle, das <a
+                        href="https://food-detektiv.de/lexikon/?lex_search=Verhalten">Verhalten</a>.</p>
+            </div>
+
+
+        </section>
+        <!--TEXT + HEADLINE END-->
+        <!--TEXT-IMAGE-BLOCK-->
+        <div class="default-space-top ">
+            <section class="text-image-block  maxwidth--copy ">
+                <div class="text-image-block__imgcontainer">
+                    <img src="/media/fooddetektiv_hintergruende_kinder-1.jpg" class="text-image-block__img" alt="">
+                </div>
+                <div class="text-image-block__textcontainer formattedtext">
+                    <p>Und f&uuml;r die Zukunft der Menschheit auf diesem Planeten. Denn die Kinder von heute bilden die
+                        Gesellschaft von morgen, sie werden die Nobelpreistr&auml;ger von morgen, oder die <a
+                            href="https://food-detektiv.de/lexikon/?lex_st=0&amp;lex_search=Kriminalit&auml;t#ergebnis">Verbrecher</a>
+                        und Drogenabh&auml;ngigen von morgen, auch die Patienten von morgen.</p>
+                    <p>Viele sind sogar schon heute krank: <a
+                            href="https://food-detektiv.de/lexikon/?lex_st=0&amp;lex_search=Allergien+#ergebnis">Allergien</a>,
+                        Bluthochdruck.&nbsp;Und die Ern&auml;hrung heute stellt da die entscheidenden Weichen.</p>
+                    <p>Bei vielen beginnt es schon vor der Geburt, mit der <a
+                            href="https://food-detektiv.de/lexikon/?lex_search=Cola">Cola</a>, die die Mutter trinkt,
+                        den <a
+                            href="https://food-detektiv.de/lexikon/?lex_st=0&amp;lex_search=Gummib&auml;rchen#ergebnis">Gummib&auml;rchen</a>,
+                        die sie sich g&ouml;nnt, all das kriegt ja auch das Kind im Bauch. Und wenn es da raus ist, geht
+                        es bei den meisten gleich weiter, mit der industriellen <a
+                            href="https://food-detektiv.de/lexikon/?lex_st=0&amp;lex_search=S&auml;uglingsnahrung#ergebnis">S&auml;uglingsmilch</a>
+                        aus dem Fl&auml;schchen, oder der umstrittenen <a
+                            href="https://food-detektiv.de/lexikon/?lex_st=0&amp;lex_search=Kindermilch#ergebnis">Kindermilch</a>,
+                        die die deutschen Beh&ouml;rden am liebsten verbieten wollten.</p>
+                </div>
+            </section>
+        </div>
+        <!--TEXT-IMAGE-BLOCK END-->
+        <!--TEXT-IMAGE-BLOCK-->
+        <div class="default-space-top ">
+            <section class="text-image-block text-image-block--reversed maxwidth--copy ">
+                <div class="text-image-block__imgcontainer">
+                    <img src="/media/fooddetektiv_hintergruende_kinder-2.jpg" class="text-image-block__img" alt="">
+                </div>
+                <div class="text-image-block__textcontainer formattedtext">
+                    <p>Und sogar die beliebten industriellen <a
+                            href="https://food-detektiv.de/lexikon/?lex_st=0&amp;lex_search=Babygl&auml;schen#ergebnis">Babygl&auml;schen</a>
+                        geraten mittlerweile in die Kritik &ndash; unter anderem, weil sie so sauber sind, so rein. Was
+                        bisher ein wichtiges Werbeargument war, gilt jetzt als Manko. Die Babygl&auml;schen behindern
+                        die Ausbildung des <a
+                            href="https://food-detektiv.de/lexikon/?lex_st=0&amp;lex_search=Immunsystem#ergebnis">Immunsystems</a>,
+                        gerade weil sie so steril sind, damit sie im Drogeriemarkt lange halten.</p>
+                    <p>In der Sph&auml;re der echten Lebensmittel h&auml;lt so ein Brei, selbstgemacht, mit Obst
+                        beispielsweise, vielleicht zwei Stunden &ndash; in der industriellen Sph&auml;re muss ein
+                        Gl&auml;schen zwei Jahre halten. Und daf&uuml;r muss der Brei fundamental ver&auml;ndert werden.
+                        Zehn Gr&uuml;nde, die gegen den Brei aus dem Gl&auml;schen sprechen, haben Wissenschaftler
+                        ausfindig gemacht.</p>
+                </div>
+            </section>
+        </div>
+        <!--TEXT-IMAGE-BLOCK END-->
+        <!--TEXT TWO COLUMNS-->
+        <div class="textblock--onecolumn formattedtext maxwidth--copy small-space-top">
+            <p style="text-align: left;">Und so geht es weiter: Obst aus dem Quetschbeutel, Fruchtzwerge und
+                Monsterbacke, McDonald&rsquo;s, <a
+                    href="https://food-detektiv.de/lexikon/?lex_st=0&amp;lex_search=Cola#ergebnis">Cola</a>, Fanta, Red
+                Bull: Die Generation <a
+                    href="https://food-detektiv.de/lexikon/?lex_st=0&amp;lex_search=Fastfood#ergebnis">Fastfood</a> lebt
+                praktisch ausschlie&szlig;lich von Konzernnahrung, sogar mittags in der Kita, wenn das Essen aus einer
+                Kochfabrik namens <a
+                    href="https://food-detektiv.de/lexikon/?lex_st=0&amp;lex_search=Apetito#ergebnis">Apetito</a>
+                kommt.&nbsp;Sogar die zust&auml;ndigen <a
+                    href="https://food-detektiv.de/lexikon/?lex_search=Koletzko,%20Prof.%20Berthold">Experten</a>
+                favorisieren in ihren&nbsp;einschl&auml;gigen Richtlinien die Industriekost, treten sogar als
+                Werbefiguren auf.</p>
+            <p style="text-align: left;">Ein neuer Zugang zum Thema Ern&auml;hrung, ein neuer Begriff von Qualit&auml;t
+                und Sicherheit &ndash; nirgendwo sonst ist der Paradigmenwechsel so wichtig wie bei dem, was wir den
+                Kindern auftischen.&nbsp;Sie sollen ja sp&auml;ter ein besseres Leben haben.</p>
+        </div>
+        <!--TEXT 2 COLUMNS END-->
+        <!--TEXT + HEADLINE-->
+
+        <section class="textblock maxwidth--copy ">
+
+
+
+            <a href="/wissen/details/gesundes-essen-fuer-unsere-kinder/"
+                class="button button--primary small-space-top">Mehr erfahren</a>
+
+        </section>
+        <!--TEXT + HEADLINE END-->
+        <!--TEXT + HEADLINE-->
+
+        <a id="tiere" class="anchor"></a>
+        <section class="textblock maxwidth--copy ">
+
+            <h2 class="centered drwatson-icon-top">Zum Fressen gern</h2>
+
+            <div class="formattedtext">
+                <h4 style="text-align: center;">Mensch und Tier: Eine Beziehung in der Krise</h4>
+                <p>Es ist eine Beziehung, die schon lange h&auml;lt: seit Tausenden von Jahren. Doch nun steckt sie in
+                    der Krise. Denn es ist etwas dazwischengekommen. Ein St&ouml;rfaktor. Manche wollen die Beziehung
+                    deshalb schon ganz aufk&uuml;ndigen &ndash; aus lauter Liebe, zu den Tieren. H&ouml;chste Zeit, auch
+                    diese Beziehung mit neuen Augen zu betrachten. Denn tats&auml;chlich ist es ein Skandal, der viele
+                    emp&ouml;rt: Unser Umgang mit den Tieren. Zum einen sind da die Haustiere. Hund &amp; Katz.
+                    Hei&szlig;geliebt. Gestreichelt &amp; geherzt. <a
+                        href="https://food-detektiv.de/lexikon/?lex_search=Heimtiernahrung">Gef&uuml;ttert mit dem
+                        Besten</a>, was in den Fressnapf kommen kann. Aus goldenen Sch&auml;lchen, aufwendig beworben,
+                    in den sch&ouml;nsten Worten gepriesen &ndash; und dabei ist es in Wahrheit nichts als: Abfall. <a
+                        href="https://food-detektiv.de/lexikon/?lex_search=Abfallfreie%20Lebensmittelwirtschaft">Abfall,</a>
+                    aus Tierfabriken, zum Beispiel. Oder aus den Food-Fabriken.</p>
+            </div>
+
+
+        </section>
+        <!--TEXT + HEADLINE END-->
+        <!--TEXT-IMAGE-BLOCK-->
+        <div class="default-space-top ">
+            <section class="text-image-block  maxwidth--copy ">
+                <div class="text-image-block__imgcontainer">
+                    <img src="/media/fooddetektiv_hintergruende_tiere-1.jpg" class="text-image-block__img" alt="">
+                </div>
+                <div class="text-image-block__textcontainer formattedtext">
+                    <p>Das w&auml;re eigentlich nicht weiter schlimm, schlie&szlig;lich haben sie schon immer die Reste
+                        bekommen, der Hund zum Beispiel den Knochen, der vom Kotelett &uuml;brig blieb.</p>
+                    <p>Nur: Jetzt muss der M&uuml;ll auch noch lange halten, weit transportiert werden, bis er in die
+                        Fabrik kommt, und sp&auml;ter in den Fressnapf.</p>
+                    <p>Daf&uuml;r kommen die gleichen Methoden zum Einsatz wie auch in den Fabriken f&uuml;r die
+                        Menschennahrung &ndash; kein Wunder, dass die Haustiere schlie&szlig;lich dick und dicker
+                        werden, wie Frauchen und Herrchen, und an den gleichen Krankheiten leiden.</p>
+                    <p>Die Industrialisierung der Nahrungskette ist f&uuml;r die Tiere eine ganz besondere
+                        Herausforderung &ndash; vor allem nat&uuml;rlich f&uuml;r jene, die selbst ein Teil davon sind,
+                        in Massen &bdquo;produziert&ldquo; werden, um sp&auml;ter auf dem Teller oder in der T&uuml;te
+                        zu landen.</p>
+                </div>
+            </section>
+        </div>
+        <!--TEXT-IMAGE-BLOCK END-->
+        <!--TEXT-IMAGE-BLOCK-->
+        <div class="default-space-top ">
+            <section class="text-image-block text-image-block--reversed maxwidth--copy ">
+                <div class="text-image-block__imgcontainer">
+                    <img src="/media/fooddetektiv_hintergruende_tiere-2.jpg" class="text-image-block__img" alt="">
+                </div>
+                <div class="text-image-block__textcontainer formattedtext">
+                    <p>Die &bdquo;Nutztiere&ldquo;. Auch sie haben wir zum Fressen gern. Und zwar ausschlie&szlig;lich.
+                        Schon seit Jahrtausenden.</p>
+                    <p>Einst war das <a
+                            href="https://food-detektiv.de/lexikon/?lex_st=0&amp;lex_search=Fleisch#ergebnis">Fleisch</a>
+                        ganz wesentlich beteiligt an der menschlichen Evolution, der Entwicklung des <a
+                            href="https://food-detektiv.de/lexikon/?lex_st=0&amp;lex_search=Gehirn#ergebnis">Gehirns</a>
+                        zum Beispiel &ndash; und jetzt wird es, in Massen verzehrt, zum Gesundheitsrisiko.</p>
+                    <p>Dabei w&auml;re es auch heute noch ganz wichtig f&uuml;r uns. F&uuml;r den IQ, die Stimmung, das
+                        ausgeglichene <a
+                            href="https://food-detektiv.de/lexikon/?lex_st=0&amp;lex_search=Verhalten#ergebnis">Verhalten</a>.
+                        Vor allem die feinen <a
+                            href="https://food-detektiv.de/lexikon/?lex_search=Omega-3-Fette">Fette</a> darin &ndash;
+                        die allerdings nur in nennenswertem Ma&szlig;e vorkommen, wenn die Tiere artgerecht gehalten und
+                        gef&uuml;ttert werden.</p>
+                </div>
+            </section>
+        </div>
+        <!--TEXT-IMAGE-BLOCK END-->
+        <!--TEXT TWO COLUMNS-->
+        <div class="textblock--onecolumn formattedtext maxwidth--copy small-space-top">
+            <p>Die <a
+                    href="https://food-detektiv.de/lexikon/?lex_st=0&amp;lex_search=Massentierhaltung#ergebnis">Massentierhaltung</a>
+                aber f&uuml;hrt dazu, dass Fleisch und Wurst im &Uuml;berma&szlig; verzehrt wird &ndash; und dadurch
+                beitr&auml;gt zur Ausbreitung der sogenannten Zivilisationskrankheiten. Bei den Menschen &ndash; und
+                sogar den Haustieren: Denn sie bekommen nat&uuml;rlich die Abf&auml;lle aus den Tierfabriken,
+                industriell aufbereitet, mit billigen Zutaten gestreckt, mit Chemie verst&auml;rkt:
+                &bdquo;ultra-verarbeitete&ldquo; Nahrung.</p>
+            <p>Und wer dann voll Abscheu und Emp&ouml;rung ausbrechen und nur noch tierfrei essen will, lebt gar nicht
+                unbedingt ges&uuml;nder, entkommt dem System oft dennoch nicht.</p>
+            <p>Denn viele der <a
+                    href="https://food-detektiv.de/lexikon/?lex_st=0&amp;lex_search=Veganismus#ergebnis">tierlosen
+                    Produkte</a> im Supermarkt sind High-Tech, vollgestopft mit industriellen Zutaten, die dann einen
+                Gro&szlig;angriff starten auf unsere Mitgesch&ouml;pfe im Verdauungstrakt, das sogenannte Mikrobiom im
+                <a href="https://food-detektiv.de/lexikon/?lex_st=0&amp;lex_search=Darm#ergebnis">Darm</a>, jene
+                Kleinstlebewesen, die zust&auml;ndig sind f&uuml;r die Verarbeitung der Nahrung &ndash; und zugleich
+                f&uuml;r unsere Stimmung, sogar unser <a
+                    href="https://food-detektiv.de/lexikon/?lex_st=0&amp;lex_search=Verhalten#ergebnis">Verhalten</a>
+                gegen&uuml;ber unseren Mitmenschen.</p>
+            <p>Besser w&auml;re: Mehr im Einklang mit der Natur leben. Mehr Respekt gegen&uuml;ber den Tieren. Ihnen ein
+                besseres Leben g&ouml;nnen, besseres Futter.&nbsp;Ist das Tier gl&uuml;cklich, freut sich der Mensch.
+            </p>
+            <p>&nbsp;</p>
+        </div>
+        <!--TEXT 2 COLUMNS END-->
+        <!--TEXT + HEADLINE-->
+
+        <section class="textblock maxwidth--copy ">
+
+
+
+            <a href="/wissen/details/katzen-wuerden-maeuse-kaufen/" class="button button--primary small-space-top">Mehr
+                erfahren</a>
+
+        </section>
+        <!--TEXT + HEADLINE END-->
+        <!--ZIGZAG-TEXTBLOCK-->
+        <a id="zusatzstoffe" class="anchor"></a>
+        <section class="maxwidth--x-large small-space-top">
+            <h2 class="centered drwatson-icon-top">Über Zusatzstoffe</h2>
+            <h4 class="small-space-top centered">Was sie bedeuten. Wie sie wirken. Und: Sind sie eigentlich ungesund?
+            </h4>
+            <div class="zigzag-textblock small-space-top">
+                <div class="zigzag-textblock__section">
+                    <p class="zigzag-textblock__section__number"></p>
+                    <h6 class="zigzag-textblock__section__title">
+                        Wozu Zusatzstoffe? </h6>
+                    <p class="zigzag-textblock__section__text">
+                        Im Gegensatz zu normalen Zutaten wie Blumenkohl, Sahne oder Schinken sind
+                        Lebensmittelzusatzstoffe kein traditioneller Bestandteil eines Gerichtes oder Lebensmittels. Sie
+                        dienen dazu, das Essen geschmacklich oder farblich zu verbessern und haltbarer zu machen.
+                        Buntere Brause, braunere Saucen, haltbare Nudelsuppen, luftigere Kuchen, Brötchen mit einer
+                        Extraportion Brötchenduft, cremigere Quarks mit weniger Fett, Joghurts, in denen jedes
+                        Fruchtstückchen stabil an seinem Platz bleibt. Unser Essen soll attraktiver erscheinen. Und das
+                        möglichst lange. </p>
+                </div>
+                <div class="zigzag-textblock__section">
+                    <p class="zigzag-textblock__section__number"></p>
+                    <h6 class="zigzag-textblock__section__title">
+                        Was bedeuten die E-Nummern? </h6>
+                    <p class="zigzag-textblock__section__text">
+                        Die meisten zugelassenen Zusatzstoffe tragen in Europa sogenannte E-Nummern. Die Zitronensäure
+                        etwa kann auf dem Etikett im Zutatenverzeichnis auch als E 330 bezeichnet werden. Diese
+                        Ingredienzen werden daher mitunter „E-Stoffe“ genannt. Fachleute bezeichnen sie auch als
+                        „Additive“. </p>
+                </div>
+                <div class="zigzag-textblock__section">
+                    <p class="zigzag-textblock__section__number"></p>
+                    <h6 class="zigzag-textblock__section__title">
+                        Die verschiedenen Zusatzstoff-Gruppen. </h6>
+                    <p class="zigzag-textblock__section__text">
+                        Die jeweilige Aufgabe des Stoffes erkennt man an den so genannten Klassennamen. Sie können auf
+                        dem Etikett ebenfalls angegeben werden. Viele Stoffe haben mehrere Funktionen. Entsprechend kann
+                        uns ein und dieselbe Substanz, also zum Beispiel die Zitronensäure als „Antioxidationsmittel
+                        E330“ oder als „Säuerungsmittel Zitronensäure“ begegnen. Weitere Klassennamen sind: Farbstoffe,
+                        Konservierungsstoffe, Verdickungsmittel, Säureregulatoren, Geschmacksverstärker, Trennmittel,
+                        Überzugsmittel oder Süßstoffe. </p>
+                </div>
+                <div class="zigzag-textblock__section">
+                    <p class="zigzag-textblock__section__number"></p>
+                    <h6 class="zigzag-textblock__section__title">
+                        Sind sie eigentlich ungesund? </h6>
+                    <p class="zigzag-textblock__section__text">
+                        Diese Frage wird sorgfältig untersucht, bevor ein Zusatzstoff zugelassen wird. In Tierversuchen
+                        wird die Dosis ermittelt, die als täglich tolerierbar frei gegeben wird. Darauf wird ein
+                        Sicherheitszuschlag gegeben und so der sogenannte „ADI-Wert“ errechnet. („Acceptable Daily
+                        Intake“). Alle Additive gelten bis zu dieser Dosis als unbedenklich. Das gilt allerdings nicht
+                        für Allergiker: Für sie können schon kleinste Mengen gefährlich werden. </p>
+                </div>
+                <div class="zigzag-textblock__section">
+                    <p class="zigzag-textblock__section__number"></p>
+                    <h6 class="zigzag-textblock__section__title">
+                        Es kommt auf die Menge an. </h6>
+                    <p class="zigzag-textblock__section__text">
+                        Bei der Zulassung der Zusatzstoffe wird berücksichtigt, wie viel von welchen Lebensmitteln die
+                        Menschen zu sich nehmen. Daraus wird für jedes Lebensmittel eine Höchstmenge festgesetzt. Diese
+                        soll so kalkuliert sein, dass selbst bei häufigem Verzehr der ADI-Wert nicht überschritten wird.
+                        Nach einer Untersuchung der EU-Kommission allerdings wird vor allem bei Kindern bei vielen
+                        Zusätzen die akzeptable tägliche Dosis weit überschritten, in Einzelfällen bis zum 12fachen.
+                    </p>
+                </div>
+                <div class="zigzag-textblock__section">
+                    <p class="zigzag-textblock__section__number"></p>
+                    <h6 class="zigzag-textblock__section__title">
+                        Geht es auch ohne? </h6>
+                    <p class="zigzag-textblock__section__text">
+                        Viele industrielle Lebensmittel kommen nicht ohne Zusatzstoffe aus. Tütensuppen würden schnell
+                        schimmeln, Margarine ranzig werden, bei Fruchtjoghurts sich Fruchtzubereitung und Joghurt
+                        trennen. Das Fertig-Dressing für den Salat würde sich in die Bestandteile Kräuter, Essig und Öl
+                        auflösen. Es gibt allerdings eine sichere Möglichkeit, ohne Zusatzstoffe auszukommen: selbst
+                        kochen unter Verwendung frischer Zutaten. Das Dressing selbst machen, die Suppe frisch oder für
+                        ein paar Tage vorkochen, Früchte oder Marmelade in den Natur-Joghurt rühren. Viele betreiben
+                        auch häusliche Vorratswirtschaft durch Tiefkühlen. Es gibt aber auch, gerade im Biobereich,
+                        Lebensmittel ohne E-Nummern. Das Etikett gibt Auskunft. </p>
+                </div>
+            </div>
+        </section>
+        <!--ZIGZAG-TEXTBLOCK END-->
+        <!--TWOTEASERS-->
+        <h3 class="default-space-top centered">Bitte mehr von DR. WATSON…</h3>
+        <section class="twoteasers maxwidth--x-large small-space-top">
+
+            <!--TEASER-ITEM-->
+            <div class="twoteasers__item">
+                <div class="twoteasers__item__image" style="
+              background-image: url('/media/fooddetektiv_teaser_datenbank.jpg');
+            "></div>
+                <h2 class="twoteasers__item__title">Alles über Zusatzstoffe</h2>
+                <p class="twoteasers__item__text">
+                    Was steckt eigentlich drin in der Cola und den Chips? Die DR. WATSON Datenbank informiert über
+                    Zusatzstoffe, Risiken und Nebenwirkungen. </p>
+                <a href="/zusatzstoffe/?enummer=Zitronensäure" class="button button--primary twoteasers__item__button"
+                    target="_self">Mehr erfahren</a>
+
+
+            </div>
+            <!--TEASER-ITEM END-->
+            <!--TEASER-ITEM-->
+            <div class="twoteasers__item">
+                <div class="twoteasers__item__image" style="
+              background-image: url('/media/fooddetektiv_teaser_buecher_1.jpg');
+            "></div>
+                <h2 class="twoteasers__item__title">Bücher des DR. WATSON Teams</h2>
+                <p class="twoteasers__item__text">
+                    Seriös recherchiert, spannend formuliert: Die Bücher des DR. WATSON Teams, mit dem
+                    lebensverändernden Soforteffekt. </p>
+                <a href="/wissen/buecher/" class="button button--primary twoteasers__item__button" target="_self">Mehr
+                    erfahren</a>
+
+
+            </div>
+            <!--TEASER-ITEM END-->
+        </section>
+        <!--TWOTEASERS END-->
+        <div class="default-space-top"></div>
+
+    </div>
+
+    <div class="cookie-modal cookie-layer">
+        <div class="content-width cookie-modal__container">
+            <div class="cookie-modal__text text-styles">
+                <h4>Cookie Einstellungen</h4>
+                <p>Wir verwenden Cookies, um Ihren Besuch so komfortabel wie möglich zu gestalten. Unsere Seite nutzt
+                    dazu Website Tracking-Cookies von Dritten, zu einer anonymisierten Statistikerstellung. Einzelheiten
+                    zu den eingesetzten Technologien, Hinweise zu deren Widerrufsmöglichkeiten sowie Informationen zur
+                    Datenweitergabe an Dritte entnehmen Sie bitte unserer &nbsp;<a
+                        href="/datenschutz/">Datenschutzbestimmungen</a> .
+                </p>
+            </div>
+            <div class="cookie-modal__button-row">
+                <button class="button button--outline  cookie-layer__button-no">Nur notwendige Cookies
+                    akzeptieren</button>
+                <button class="button button--primary  cookie-layer__button-yes">Alle Cookies akzeptieren</button>
+            </div>
+        </div>
+    </div>
+
+    <!--FOOTER-->
+    <footer class="footer">
+        <div class="footer__content maxwidth--x-large">
+            <div class="footer__column">
+                <div class="drwatson-icon drwatson-icon--black"></div>
+            </div>
+            <div class="footer__column">
+                <ul class="footer__linklist">
+                    <li class="footer__linkitem">
+                        <a href="/impressum/" class="footer__link">Impressum</a>
+                    </li>
+                    <li class="footer__linkitem">
+                        <a href="/datenschutz/" class="footer__link">Datenschutz</a>
+                    </li>
+                    <li class="footer__linkitem">
+                        <a href="/kontakt/" class="footer__link">Kontakt</a>
+                    </li>
+                    <li class="footer__linkitem">
+                        <a href="/zusatzstoffe-liste/" class="footer__link">Alle Zusatzstoffe</a>
+                    </li>
+                    <li class="footer__linkitem">
+                        <a href="/lexikon-liste/" class="footer__link">Alle Lexikoneinträge</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__column">
+                <ul class="footer__linklist">
+                    <li class="footer__linkitem">
+                        <a href="/ueber-dr-watson/" class="footer__link">
+                            Über DR. WATSON </a>
+                    </li>
+                    <li class="footer__linkitem">
+                        <a href="/wissen/" class="footer__link">
+                            Wissen </a>
+                    </li>
+                    <li class="footer__linkitem">
+                        <a href="/hintergruende/" class="footer__link">
+                            Hintergründe </a>
+                    </li>
+                    <li class="footer__linkitem">
+                        <a href="/aktuelles/" class="footer__link">
+                            Aktuelles </a>
+                    </li>
+                    <li class="footer__linkitem">
+                        <a href="/unterstuetzen/" class="footer__link">
+                            Unterstützen </a>
+                    </li>
+
+
+                </ul>
+            </div>
+            <div class="footer__column footer__column--bold">
+
+
+                <p>Folgen Sie uns</p>
+                <div class="footer__socialmediacontainer">
+                    <a href="https://twitter.com/FoodDetektiv" class="footer__socialmediaicon__link" target="_blank">
+                        <img src="/resources/media/icons/food-detektive_icons_social-twitter.svg" alt="Twitter"
+                            class="footer__socialmediaicon" />
+                    </a>
+                    <a href="https://www.facebook.com/Dr-Watson-Der-Food-Detektiv-107593295993797/"
+                        class="footer__socialmediaicon__link" target="_blank">
+                        <img src="/resources/media/icons/food-detektive_icons_social-facebook.svg" alt="Facebook"
+                            class="footer__socialmediaicon" />
+                    </a>
+                </div>
+                <p class="footer__appheading">Apps für unterwegs</p>
+                <a href="https://apps.apple.com/de/app/dr-watson/id725163877" target="_blank">
+                    <img src="/resources/media/img/FD_Footer_Appstore.png" alt="Appstore" class="footer__appbutton" />
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=com.ihanwel.drwatson" target="_blank">
+                    <img src="/resources/media/img/FD_Footer_GooglePlay.png" alt="Google Play"
+                        class="footer__appbutton" />
+                </a>
+
+            </div>
+        </div>
+    </footer>
+    <!--FOOTER END-->
+    <!--footer-->
+</body>
+
+</html>
