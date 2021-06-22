@@ -19,4 +19,8 @@ console.log(mein_set);
 
 meine_map.entries();
 
-
+meine_map.forEach(function(wert, eigenschaft, map) {
+    console.log(wert);
+    console.log(eigenschaft);
+    console.log();
+});
