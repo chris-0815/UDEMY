@@ -72,10 +72,10 @@ const haushaltsbuch = {
 
 
     gesamtbilanz_ausgeben() {
-        console.log(`Einnahmen: ${this.gesamtbilanz.einnahmen} ct\n`
-            + `Ausgaben: ${this.gesamtbilanz.ausgaben} ct\n`
-            + `Bilanz: ${this.gesamtbilanz.bilanz} ct\n`
-            + `Bilanz ist positiv: ${this.gesamtbilanz.bilanz >= 0}`
+        console.log(`Einnahmen: ${this.gesamtbilanz.get("einnahmen")} ct\n`
+            + `Ausgaben: ${this.gesamtbilanz.get("ausgaben")} ct\n`
+            + `Bilanz: ${this.gesamtbilanz.get("bilanz")} ct\n`
+            + `Bilanz ist positiv: ${this.gesamtbilanz.get("bilanz") >= 0}`
         );
     },
 
