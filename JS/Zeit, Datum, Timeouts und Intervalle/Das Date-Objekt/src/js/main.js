@@ -1,13 +1,15 @@
 "use strict";
 
-// Funktions-Ausdruck (anonyme Funktion)
-const meine_funktion = function(a = "Chris", b = "Binner", c = 39)  {
-    console.log(`Herzlichen Glückwunsch ${a} ${b} zum ${c}. Geburtstag `)
-};
+let d = new Date();
+console.log(d);
 
-let vorname = "Max";
-let nachname = "Mustermann";
-let alter = 42
+console.log(Date.now());
 
-meine_funktion(vorname, undefined, alter)
-meine_funktion()
+let e = new Date(1470091401499);
+console.log(e);
+
+let f = new Date("Aug 02 2016 01:43:21 GMT+0100");
+console.log(f);
+
+let g = new Date(2012, 5, 23, 15, 15, 15, 155);
+console.log(g);
