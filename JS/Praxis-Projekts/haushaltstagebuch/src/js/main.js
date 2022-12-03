@@ -42,27 +42,26 @@ const haushaltsbuch = {
 
 
     gesamtbilanz_erstellen() {
-        let neue_gesamtbilanz = {
-            einnahmen: 0,
-            ausgaben: 0,
-            bilanz: 0,
-        };
+        let neue_gesamtbilanz = new Map();
+        neue_gesamtbilanz.set("einnahmen", 0);
+        neue_gesamtbilanz.set("ausgaben", 0);
+        neue_gesamtbilanz.set("bilanz", 0);
         this.eintraege.forEach(function(eintrag){
-            switch (eintrag.typ) {
+            switch (eintrag.get("typ")) {
                 case "Einnahme":
                 case "einnahme":
                 case "+":
-                    neue_gesamtbilanz.einnahmen += eintrag.betrag;
-                    neue_gesamtbilanz.bilanz += eintrag.betrag;
+                    neue_gesamtbilanz.set("einnahmen", neue_gesamtbilanz.get("einnahmen")+ eintrag.get("betrag"));
+                    neue_gesamtbilanz.set("bilanz", neue_gesamtbilanz.get("bilanz") + eintrag.get("betrag"));
                     break;
                 case "Ausgabe":
                 case "ausgabe":
                 case "-":
-                    neue_gesamtbilanz.ausgaben += eintrag.betrag;
-                    neue_gesamtbilanz.bilanz -= eintrag.betrag;
+                    neue_gesamtbilanz.set("ausgaben", neue_gesamtbilanz.get("ausgaben") + eintrag.get("betrag"));
+                    neue_gesamtbilanz.set("bilanz", neue_gesamtbilanz.get("bilanz") - eintrag.get("betrag"));
                     break;
                 default:
-                    console.log(`Ich kenne "${eintrag}" nicht. Was ist das?`)
+                    console.log(`Ich kenne "${eintrag.get("typ")}" nicht. Was ist das?`)
                     alert(`Falsche Eingabe, achte auf den Input den ${this.eintrag.typ}`);
                     break;
             }
