@@ -70,19 +70,6 @@ const haushaltsbuch = {
     },
 
 
-//     eintrag_mit_gesamtbilanz_verrechnen() {
-//         if (this.neuer_eintrag.typ === "Einnahme" || this.neuer_eintrag.typ === "einnahme") {
-//             this.gesamtbilanz.einnahmen += this.neuer_eintrag.betrag;
-//             this.gesamtbilanz.bilanz += this.neuer_eintrag.betrag;
-//         } else if (this.neuer_eintrag.typ === "Ausgabe" || this.neuer_eintrag.typ === "ausgabe") {
-//             this.gesamtbilanz.ausgaben += this.neuer_eintrag.betrag;
-//             this.gesamtbilanz.bilanz -= this.neuer_eintrag.betrag;
-//         } else {
-//             console.log(`ERRRRRRROR: ${this.neuer_eintrag.typ}`)
-//             alert(`Falsche Eingabe, achte auf den Input den ${this.neuer_eintrag.typ}`);
-//         }
-//     },
-
 
     gesamtbilanz_ausgeben() {
         console.log(`Einnahmen: ${this.gesamtbilanz.einnahmen} ct\n`
