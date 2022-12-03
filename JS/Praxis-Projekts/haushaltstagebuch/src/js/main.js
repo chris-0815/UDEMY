@@ -19,9 +19,9 @@ const haushaltsbuch = {
 
     eintraege_sortieren() {
         this.eintraege.sort(function(eintrag_a, eintrag_b) {
-            if (eintrag_a > eintrag_b) {
+            if (eintrag_a.get("datum") == eintrag_b.get("datum")) {
                 return -1;
-            } else if (eintrag_a < eintrag_b) {
+            } else if (eintrag_a.get("datum") < eintrag_b.get("datum")) {
                 return 1;
             } else {
                 return 0;
