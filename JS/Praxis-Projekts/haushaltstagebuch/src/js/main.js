@@ -62,7 +62,7 @@ const haushaltsbuch = {
                     break;
                 default:
                     console.log(`Ich kenne "${eintrag.get("typ")}" nicht. Was ist das?`)
-                    alert(`Falsche Eingabe, achte auf den Input den ${this.eintrag.typ}`);
+                    alert(`Falsche Eingabe, achte auf den Input den ${eintrag.get("typ")}`);
                     break;
             }
         });
