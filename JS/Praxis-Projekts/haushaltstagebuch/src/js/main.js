@@ -14,6 +14,7 @@ const haushaltsbuch = {
       "datum",
       new Date(prompt("Datum (jjjj-mm-tt)") + " 00:00:00")
     );
+    neuer_eintrag.set("timestamp", Date.now());
     this.eintraege.push(neuer_eintrag);
   },
 
@@ -39,7 +40,7 @@ const haushaltsbuch = {
           `Datum: ${eintrag.get("datum").toLocaleString("de-DE", {
             year: "numeric",
             month: "long",
-            day: "long",
+            day: "2-digit",
           })}`
       );
     });
