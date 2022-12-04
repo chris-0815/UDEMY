@@ -11,3 +11,5 @@ console.log(s.toUpperCase());
 console.log(s.toLowerCase());
 console.log(s.trim()); // entfernt leerzeichen am anfang und am ende
 console.log(s.repeat(100));
+
+console.log(s.search(""));
