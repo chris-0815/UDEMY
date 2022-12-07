@@ -76,7 +76,7 @@ const haushaltsbuch = {
           `Betrag: ${(eintrag.get("betrag") / 100).toFixed(2)} €\n` +
           `Datum: ${eintrag.get("datum").toLocaleString("de-DE", {
             year: "numeric",
-            month: "long",
+            month: "2-digit",
             day: "2-digit",
           })}`
       );
