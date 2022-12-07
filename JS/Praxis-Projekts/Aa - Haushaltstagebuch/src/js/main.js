@@ -31,7 +31,7 @@ const haushaltsbuch = {
   },
 
   betrag_validieren(betrag) {
-    if (betrag.match() !== null) {
+    if (betrag.match(/^\d+(?:(?:,|\.)\d\d?)?$/) !== null) {
       return true;
     } else {
       return false;
