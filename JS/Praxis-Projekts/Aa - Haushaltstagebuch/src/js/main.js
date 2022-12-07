@@ -22,7 +22,16 @@ const haushaltsbuch = {
   },
 
   betrag_verarbeiten(betrag) {
-    return parseFloat(betrag.replace(",", ".")) * 100;
+    if (this.betrag_validieren(betrag)) {
+      return parseFloat(betrag.replace(",", ".")) * 100;
+    } else {
+      console.log(`betrag entspricht nicht der Richtlinie: ${betrag} €`);
+      return false;
+    }
+  },
+
+  betrag_validieren(betrag) {
+    return true;
   },
 
   eintraege_sortieren() {
