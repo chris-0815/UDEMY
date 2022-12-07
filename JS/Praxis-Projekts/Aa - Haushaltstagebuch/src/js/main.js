@@ -15,7 +15,7 @@ const haushaltsbuch = {
     );
     neuer_eintrag.set(
       "datum",
-      new Date(prompt("Datum (jjjj-mm-tt)") + " 00:00:00").trim()
+      this.datum_verarbeiten(prompt("Datum (jjjj-mm-tt):").trim())
     );
     neuer_eintrag.set("timestamp", Date.now());
     this.eintraege.push(neuer_eintrag);
@@ -32,6 +32,23 @@ const haushaltsbuch = {
 
   betrag_validieren(betrag) {
     if (betrag.match(/^\d+(?:(?:,|\.)\d\d?)?$/) !== null) {
+      return true;
+    } else {
+      return false;
+    }
+  },
+
+  datum_verarbeiten(datum) {
+    if (this.datum_validieren(datum)) {
+      return new Date(datum + "00:00:00");
+    } else {
+      console.log(`Datum entspricht nicht der Richtlinie: ${datum}`);
+      return false;
+    }
+  },
+
+  datum_validieren(datum) {
+    if (datum.match(/^\d{4}-\d{2}-\d{2}$/) !== null) {
       return true;
     } else {
       return false;
