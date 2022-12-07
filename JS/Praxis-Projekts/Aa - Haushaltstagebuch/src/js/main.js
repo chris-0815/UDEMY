@@ -40,7 +40,7 @@ const haushaltsbuch = {
 
   datum_verarbeiten(datum) {
     if (this.datum_validieren(datum)) {
-      return new Date(datum + "00:00:00");
+      return new Date(datum + " 00:00:00");
     } else {
       console.log(`Datum entspricht nicht der Richtlinie: ${datum}`);
       return false;
