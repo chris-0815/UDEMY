@@ -31,7 +31,11 @@ const haushaltsbuch = {
   },
 
   betrag_validieren(betrag) {
-    return true;
+    if (betrag.match() !== null) {
+      return true;
+    } else {
+      return false;
+    }
   },
 
   eintraege_sortieren() {
