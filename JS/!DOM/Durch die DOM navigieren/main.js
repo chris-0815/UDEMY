@@ -25,6 +25,8 @@ let parent_of_child = ul.parentElement; //
 let parent_of_last_child = ul.parentElement.lastChild; //
 let parent_of_prev_sibling = ul.parentElement.prevSibling; //
 
+let anker = ul.querySelector("li > a"); // Allgemeines Selectieren
+
 console.log(child_nodes);
 console.log(children);
 console.log(first_child);
