@@ -7,15 +7,52 @@ const haushaltsbuch = {
 
   eintrag_erfassen() {
     let neuer_eintrag = new Map();
-    neuer_eintrag.set("titel", prompt("Titel:"));
-    neuer_eintrag.set("typ", prompt("Typ (Einnahme oder Ausgabe):"));
-    neuer_eintrag.set("betrag", parseInt(prompt("Betrag (in Cent):")));
+    neuer_eintrag.set("titel", prompt("Titel:").trim());
+    neuer_eintrag.set("typ", prompt("Typ (Einnahme oder Ausgabe):").trim());
+    neuer_eintrag.set(
+      "betrag",
+      this.betrag_verarbeiten(prompt("Betrag (in Euro z.b: 33,40):").trim())
+    );
     neuer_eintrag.set(
       "datum",
-      new Date(prompt("Datum (jjjj-mm-tt)") + " 00:00:00")
+      this.datum_verarbeiten(prompt("Datum (jjjj-mm-tt):").trim())
     );
     neuer_eintrag.set("timestamp", Date.now());
     this.eintraege.push(neuer_eintrag);
+  },
+
+  betrag_verarbeiten(betrag) {
+    if (this.betrag_validieren(betrag)) {
+      return parseFloat(betrag.replace(",", ".")) * 100;
+    } else {
+      console.log(`betrag entspricht nicht der Richtlinie: ${betrag} €`);
+      return false;
+    }
+  },
+
+  betrag_validieren(betrag) {
+    if (betrag.match(/^\d+(?:(?:,|\.)\d\d?)?$/) !== null) {
+      return true;
+    } else {
+      return false;
+    }
+  },
+
+  datum_verarbeiten(datum) {
+    if (this.datum_validieren(datum)) {
+      return new Date(`${datum} 00:00:00`);
+    } else {
+      console.log(`Datum entspricht nicht der Richtlinie: ${datum}`);
+      return false;
+    }
+  },
+
+  datum_validieren(datum) {
+    if (datum.match(/^\d{4}-\d{2}-\d{2}$/) !== null) {
+      return true;
+    } else {
+      return false;
+    }
   },
 
   eintraege_sortieren() {
@@ -36,10 +73,10 @@ const haushaltsbuch = {
       console.log(
         `Titel: ${eintrag.get("titel")}\n` +
           `Typ: ${eintrag.get("typ")}\n` +
-          `Betrag: ${eintrag.get("betrag")} ct\n` +
+          `Betrag: ${(eintrag.get("betrag") / 100).toFixed(2)} €\n` +
           `Datum: ${eintrag.get("datum").toLocaleString("de-DE", {
             year: "numeric",
-            month: "long",
+            month: "2-digit",
             day: "2-digit",
           })}`
       );
@@ -90,10 +127,14 @@ const haushaltsbuch = {
 
   gesamtbilanz_ausgeben() {
     console.log(
-      `Einnahmen: ${this.gesamtbilanz.get("einnahmen")} ct\n` +
-        `Ausgaben: ${this.gesamtbilanz.get("ausgaben")} ct\n` +
-        `Bilanz: ${this.gesamtbilanz.get("bilanz")} ct\n` +
-        `Bilanz ist positiv: ${this.gesamtbilanz.get("bilanz") >= 0}`
+      `Einnahmen: ${(this.gesamtbilanz.get("einnahmen") / 100).toFixed(
+        2
+      )} €\n` +
+        `Ausgaben: ${(this.gesamtbilanz.get("ausgaben") / 100).toFixed(
+          2
+        )} €\n` +
+        `Bilanz: ${(this.gesamtbilanz.get("bilanz") / 100).toFixed(2)} €\n` +
+        `Bilanz ist positiv: ${this.gesamtbilanz.get("bilanz") / 100 >= 0}`
     );
   },
 
