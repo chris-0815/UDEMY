@@ -11,17 +11,18 @@ const haushaltsbuch = {
     neuer_eintrag.set("typ", prompt("Typ (Einnahme oder Ausgabe):").trim());
     neuer_eintrag.set(
       "betrag",
-      this.betrag_verarbeiten(prompt("Betrag (in Euro z.b: 33,40):").trim())
+      this.betrag_verarbeiten(prompt("Betrag (in Euro z.b: 33,40):"))
     );
     neuer_eintrag.set(
       "datum",
-      this.datum_verarbeiten(prompt("Datum (jjjj-mm-tt):").trim())
+      this.datum_verarbeiten(prompt("Datum (jjjj-mm-tt):"))
     );
     neuer_eintrag.set("timestamp", Date.now());
     this.eintraege.push(neuer_eintrag);
   },
 
   betrag_verarbeiten(betrag) {
+    betrag = betrag.trim();
     if (this.betrag_validieren(betrag)) {
       return parseFloat(betrag.replace(",", ".")) * 100;
     } else {
@@ -38,7 +39,25 @@ const haushaltsbuch = {
     }
   },
 
+  titel_verarbeiten(titel) {
+    if (this.titel_validieren(titel)) {
+      return parseString(titel.replace(",", "."));
+    } else {
+      console.log(`betrag entspricht nicht der Richtlinie: ${betrag} €`);
+      return false;
+    }
+  },
+
+  titel_validieren(titel) {
+    if (titel.match(/^\d+(?:(?:,|\.)\d\d?)?$/) !== null) {
+      return true;
+    } else {
+      return false;
+    }
+  },
+
   datum_verarbeiten(datum) {
+    datum = datum.trim();
     if (this.datum_validieren(datum)) {
       return new Date(`${datum} 00:00:00`);
     } else {
